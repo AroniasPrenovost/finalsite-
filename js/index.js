@@ -1,4 +1,4 @@
-// quote generator and button 
+// quote generator
 
 var quotesArr = [];
 	
@@ -19,7 +19,6 @@ setInterval(displayDetails, 3000);
 
 	function displayDetails()
 	{
-
 		var randomQuote = Math.floor(Math.random() * (quotesArr.length - 0));
 		document.getElementById("quote").innerHTML = quotesArr[randomQuote];
 	};
