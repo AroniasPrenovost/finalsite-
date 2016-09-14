@@ -1,0 +1,15 @@
+@media (max-width: 767px) { 
+	.head-top .container {
+		padding: 15px;
+	}
+	.footer {
+		width: 100%;
+		float: left;
+	}
+	.box-content .col-md-6 {
+		padding: 15px;
+	}
+	.circleSection .col-md-3 {
+		padding: 15px;
+	}
+}
