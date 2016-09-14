@@ -433,39 +433,11 @@ p:nth-child(2) {
   font-size: 34px;
   font-family: 'Libre Franklin', sans-serif; }
 
-.tile-11 img {
-  height: 0%;
-  width: 0%; }
-
-.social-icons {
-  float: left;
-  margin: 10px 0 0 320px; }
-
-.social-icon1 {
-  position: relative;
+.social-footer img {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 20px 0;
   float: left; }
-
-.social-icon2 {
-  float: left; }
-
-.social-icon3 {
-  position: relative;
-  float: left; }
-
-.social-icon1 a img {
-  width: 35px;
-  height: 35px;
-  margin: 0 0 0 0; }
-
-.social-icon2 a img {
-  width: 35px;
-  height: 35px;
-  margin: 25px 0 0 0; }
-
-.social-icon3 a img {
-  width: 35px;
-  height: 35px;
-  margin: 25px 0 0 0; }
 
 p.copyright {
   opacity: 0.5;
@@ -786,51 +758,12 @@ p.copyright {
     width: 100%;
     height: 100px;
     float: left;
-    margin: 15px 0 30px 0px;
-    background: gray; }
-  .tile-11 > .front-11 {
-    position: absolute;
-    border-radius: 0px; }
-  .tile-11 img {
-    height: 0%;
-    width: 0%; }
-  .tile-11 {
-    width: 750px;
-    height: 650px;
-    float: left;
-    margin: 0 0 0 -15px;
-    background: transparent; }
-  .tile-11 img {
-    position: absolute;
-    background-size: cover;
-    height: 650px;
-    width: 100%; }
-  .tile-11 > .front-11 {
-    position: absolute;
-    background: transparent;
-    width: 750px;
-    height: 650px;
-    border-radius: 0px; }
-  .block-11 h3 {
-    width: 80%;
-    color: red;
-    padding: 25px 0 0 45px;
-    font-size: 34px; }
-  .social-icons {
-    position: relative;
-    margin: 200px 0 0 480px; }
-  .social-icon1 a img {
-    width: 35px;
-    height: 35px;
-    margin: 0 0 0 0; }
-  .social-icon2 a img {
-    width: 35px;
-    height: 35px;
-    margin: 25px 0 0 0; }
-  .social-icon3 a img {
-    width: 35px;
-    height: 35px;
-    margin: 50px 0 0 0; }
+    background-color: silver; }
+  .social-footer img {
+    width: 20px;
+    height: 20px;
+    margin: 0 0 20px 0;
+    float: left; }
   p.copyright {
     font-size: 12px;
     margin: 30px 0 0 0; } }
@@ -1057,59 +990,13 @@ p.copyright {
     margin: 20px 0 0 5px;
     font-size: 30px; }
   .tile-11 {
-    width: 970px;
-    height: 925px;
-    float: left;
-    padding: 0 0 0 0;
-    margin-left: -15px;
-    background: transparent; }
-  .tile-11 img {
-    position: absolute;
-    background-size: cover;
     width: 100%;
-    height: 100%; }
-  .tile-11 > .front-11 {
-    position: absolute;
-    background: transparent;
-    width: 970px;
-    height: 925px;
-    border-radius: 0px; }
-  .block-11 p {
-    margin: 45px 0px 0 45px;
-    font-size: 15px;
-    margin-bottom: -15px; }
-  .block-11 h1 {
-    padding: 0 0 0 45px;
-    font-size: 30px; }
-  .block-11 h3 {
-    width: 80%;
-    color: red;
-    padding: 25px 0 0 45px;
-    font-size: 34px; }
-  .social-icons {
-    position: relative;
-    margin: 200px 0 0 480px; }
-  .social-icon1 {
-    position: relative;
+    height: 200px; }
+  .social-footer img {
+    width: 20px;
+    height: 20px;
+    margin: 0 0 20px 0;
     float: left; }
-  .social-icon2 {
-    position: relative;
-    float: left; }
-  .social-icon3 {
-    position: relative;
-    float: left; }
-  .social-icon1 a img {
-    width: 35px;
-    height: 35px;
-    margin: 0 0 0 0; }
-  .social-icon2 a img {
-    width: 35px;
-    height: 35px;
-    margin: 25px 0 0 0; }
-  .social-icon3 a img {
-    width: 35px;
-    height: 35px;
-    margin: 50px 0 0 0; }
   p.copyright {
     font-size: 15px;
     margin: 30px 0 0 0; } }
@@ -1347,41 +1234,13 @@ p.copyright {
     margin: 20px 0 0 22.5px;
     font-size: 36px; }
   .tile-11 {
-    width: 1170px;
-    height: 925px;
-    float: left;
-    padding: 0 0 0 -15px; }
-  .tile-11 img {
-    position: absolute;
-    background-size: cover;
     width: 100%;
-    height: 100%; }
-  .tile-11 > .front-11 {
-    position: absolute;
-    background: transparent;
-    width: 1170px;
-    height: 925px;
-    border-radius: 0px; }
-  .block-11 h3 {
-    width: 80%;
-    color: red;
-    padding: 25px 0 0 45px;
-    font-size: 34px; }
-  .social-icons {
-    position: relative;
-    margin: 200px 0 0 480px; }
-  .social-icon1 a img {
-    width: 35px;
-    height: 35px;
-    margin: 0 0 0 0; }
-  .social-icon2 a img {
-    width: 35px;
-    height: 35px;
-    margin: 25px 0 0 0; }
-  .social-icon3 a img {
-    width: 35px;
-    height: 35px;
-    margin: 50px 0 0 0; }
+    height: 200px; }
+  .social-footer img {
+    width: 20px;
+    height: 20px;
+    margin: 0 0 20px 0;
+    float: left; }
   p.copyright {
     font-size: 16px;
     margin: 30px 0 0 0; } }
