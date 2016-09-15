@@ -19,8 +19,8 @@
     }
 
     .nav-custom {
-    margin: 0 0 0 0;
-    background: none !important;
+    margin: 20px 0 0 0;
+    background: white !important;
     border: none !important;
     }
 
@@ -30,19 +30,20 @@
     font-size:25px;
     letter-spacing: -1px;
     font-weight: bold;
+    margin: -10px 0 0 0;
     } 
 
     ul.nav-menu li a {
     opacity: .6;
     color: #000 !important;
-    font-size: 18px;
-    margin: 10px 0 0 0;
+    font-size: 15px;
+    margin: 0 0 0 0;
     }
 
 
     .jumbotron-c {
     float: left;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     background-color: white;
     border-radius: 0px;
     }
@@ -129,7 +130,7 @@
     height: 100%;
     float: left;
     padding: 0px 0 30px 0px;
-    background-color: silver;
+    background-color: #E0E0E0;
     }
 
     .tile-2 > .front-2 {
@@ -166,7 +167,7 @@
     width: 100%;
     float: left;
     padding: 15px 0 30px 0px;
-    background-color: silver;
+    background-color: #E0E0E0;
     }
 
 
@@ -243,12 +244,14 @@
     font-family: 'Libre Franklin', sans-serif;
     }
 
+
     .tile-5 {
     width: 100%;
     float: left;
     padding: 15px 0 30px 0px;
-    background: teal;
+    background: rgb(10, 182, 180);
     }
+
 
 
     .tile-5 > .front-5 {
@@ -263,7 +266,7 @@
     margin-bottom: -20px;
     font-family: 'Libre Franklin', sans-serif;
     }
-    .block-5  h1 {
+    .block-5 h1 {
     color: #fff;
     padding: 0 0 0 36px;
     font-size: 20px;
@@ -279,12 +282,11 @@
     font-family: 'Libre Franklin', sans-serif;
     }
 
-
     .tile-6 {
     width: 100%;
     float: left;
     padding: 15px 0 30px 0px;
-    background-color: silver;
+    background-color: #E0E0E0;
     }
 
     .tile-6 > .front-6 {
@@ -320,7 +322,7 @@
     width: 100%;
     float: left;
     padding: 15px 0 30px 0px;
-    background-color: silver;
+    background-color: #E0E0E0;
     }
 
     .tile-7 > .front-7 {
@@ -358,13 +360,15 @@
     font-family: 'Libre Franklin', sans-serif;
     }
 
+
+
+
     .tile-8 {
     width: 100%;
     float: left;
     padding: 15px 0 30px 0px;
-    background: rgb(10, 182, 180);
+    background: teal;
     }
-
 
 
     .tile-8 > .front-8 {
@@ -379,7 +383,7 @@
     margin-bottom: -20px;
     font-family: 'Libre Franklin', sans-serif;
     }
-    .block-8 h1 {
+    .block-8  h1 {
     color: #fff;
     padding: 0 0 0 36px;
     font-size: 20px;
@@ -394,9 +398,6 @@
     font-size: 20px;
     font-family: 'Libre Franklin', sans-serif;
     }
-
-
-
 
 
     .tile-9 {
@@ -452,7 +453,7 @@
     width: 100%;
     float: left;
     padding: 15px 0 30px 0px;
-    background-color: silver;
+    background-color: #E0E0E0;
     border-radius: 0px;
     }
 
@@ -543,7 +544,7 @@
 
 
     .nav-custom {
-    margin: 75px 0 0 0;
+    margin: 50px 0 0 0;
     }
 
     .nav-custom a.navbar-brand {
@@ -578,14 +579,42 @@
     animation: type2 3s steps(60, end);
     }
 
+    .block h2 {
+        color: #fff;
+    margin: 0 0 0 0;
+    text-align: center;
+    }
 
+    .block h1 {
+    color: #fff;
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+
+        .block p {
+                color:black;
+    margin: 0 0 0 0;
+        text-align: center;
+    }
+
+    .block-1 h1 {
+        color: black;
+    margin: 0 0 0 0;
+    text-align: center;
+    }
+
+    .block-1 h3 {
+    color: white;
+        margin: 0 0 0 0;
+        text-align: center;
+    }
 
     .tile-1 {
     width: 375px;
     height: 265px;
     float: left;
     padding: 0 0 0 0;
-    background-image: url(../img/pioneersquare.jpg);
+    background-image: url(../img/pioneersquareSM.jpg);
     background-size: cover;
     }
 
@@ -608,7 +637,8 @@
     transform: perspective(100px) rotateY(180deg);
     width: 375px;
     height: 265px;
-    background: transparent;
+    background: white;
+    opacity: .5;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -625,23 +655,6 @@
     transform: perspective(100px) rotateY(0deg);
     }
 
-    .block-1 p {
-    margin: 0 0 0 0;
-    font-size: 11px;
-    }
-
-    .block-1 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px;
-    }
-
-    .block-1 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px;
-    }
-
-
 
     .tile-2 {
     width: 375px;
@@ -655,25 +668,6 @@
     height: 265px;
     background-color: transparent;
     border-radius: 0px;
-    }
-
-
-    .block-2 p {
-    margin: 0 0 0 0;
-    font-size: 11px;
-    }
-
-    .block-2 h1 {
-    color: #fff;
-    font-size: 22.5px;
-    }
-
-    .block-2 h3 {
-    width: 80%;
-    color: white;
-    opacity: .8;
-    margin: 0 0 0 0;
-    font-size: 21.5px;
     }
 
     .tile-3 {
@@ -690,38 +684,20 @@
     }
 
 
-    .block-3 p {
-    margin: 0 0 0 0;
-    font-size: 11px;
-    }
-
-    .block-3 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px;
-    }
-
-    .block-3 h3 {
-    width: 80%;
-    opacity: .8;
-    font-size: 21.5px;
-    }
-
-
-
-
     .tile-4 {
     width: 375px;
     height: 265px;
     float: left;
     padding: 0px 0 0px 0px;
-    background: transparent;
+    background-image: url(../img/codeSM.jpg);
+        background-size: cover;
     }
 
     .tile-4 > .front-4 {
     position: absolute;
     -webkit-transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg);
-    background-image: url(../img/code.jpg);
+    background: transparent;
     width: 375px;
     height: 265px;
     border-radius: 0px;
@@ -734,7 +710,8 @@
     position: absolute;
     -webkit-transform: perspective(100px) rotateY(180deg);
     transform: perspective(100px) rotateY(180deg);
-    background-image: url(../img/code.jpg);
+    background: white;
+    opacity: .5;
     width: 375px;
     height: 265px;
     border-radius: 0px;
@@ -753,51 +730,19 @@
     transform: perspective(100px) rotateY(0deg);
     }
 
-
-    .block-4 p {
-    margin: 0 0 0 0;
-    font-size: 11px;
-    }
-
-    .block-4 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px;
-    }
-
-    .block-4 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px;
-    }
-
-
-
     .tile-5 {
     width: 375px;
     height: 265px;
     float: left;
     padding: 0px 0 0px 0px;
-    background: orange;
+    background: rgb(10, 182, 180);
     }
 
     .tile-5 > .front-5 {
     position: absolute;
     -webkit-transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg);
-    background-image: url(../img/accountman.jpg);
-    width: 375px;
-    height: 265px;
-    border-radius: 0px;
-    -webkit-backface-visibility: hidden;
-    transition: -webkit-transform .0s linear 0s;
-    transition: transform .0s linear 0s; 
-    }
-
-    .tile-5 > .back-5 {
-    position: absolute;
-    -webkit-transform: perspective(100px) rotateY(180deg);
-    transform: perspective(100px) rotateY(180deg);
-    background-image: url(../img/accountman.jpg);
+    background: transparent;
     width: 375px;
     height: 265px;
     border-radius: 0px;
@@ -809,28 +754,6 @@
     .tile-5:hover > .front-5 {
     -webkit-transform: perspective(100px) rotateY(-180deg);
     transform: perspective(100px) rotateY(-180deg); 
-    }
-
-    .tile-5:hover > .back-5 {
-    -webkit-transform: perspective(100px) rotateY(0deg);
-    transform: perspective(100px) rotateY(0deg);
-    }
-
-
-    .block-5 p {
-    margin: 0 0 0 0;
-    font-size: 11px;
-    }
-
-    .block-5 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px;
-    }
-
-    .block-5 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px;
     }
 
 
@@ -848,26 +771,6 @@
     border-radius: 0px;
     }
 
-    .block-6 p {
-    margin: 0 0 0 0;
-    font-size: 11px;
-    }
-
-    .block-6 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px;
-    }
-
-    .block-6 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px;
-    }
-
-
-
-
-
 
     .tile-7 {
     width: 375px;
@@ -884,24 +787,13 @@
     }
 
 
-    .block-7 h1 {
-    margin: 115px 0 0 0;
-    width: 80%;
-    text-align: center;
-    font-size: 20px;
-    }
-
-
-
-
-
-
     .tile-8 {
     width: 375px;
     height: 265px;
     float: left;
     padding: 0px 0 0px 0px;
-    background: rgb(10, 182, 180);
+    background-image: url(../img/accountmanSM.jpg);
+        background-size: cover;
     }
 
     .tile-8 > .front-8 {
@@ -917,42 +809,12 @@
     transition: transform .0s linear 0s; 
     }
 
-    .tile-8:hover > .front-8 {
-    -webkit-transform: perspective(100px) rotateY(-180deg);
-    transform: perspective(100px) rotateY(-180deg); 
-    }
-
-
-
-    .block-8 p {
-    margin: 0 0 0 0;
-    font-size: 11px;
-    }
-
-    .block-8 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px;
-    }
-
-    .block-8 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px;
-    }
-
-    .tile-9 {
-    width: 375px;
-    height: 265px;
-    float: left;
-    padding: 0px 0 0px 0px;
-    background: black;
-    }
-
-    .tile-9 > .front-9 {
+    .tile-8 > .back-8 {
     position: absolute;
-    -webkit-transform: perspective(100px) rotateY(0deg);
-    transform: perspective(100px) rotateY(0deg);
-    background: black;
+    -webkit-transform: perspective(100px) rotateY(180deg);
+    transform: perspective(100px) rotateY(180deg);
+    background: white;
+    opacity: .5;
     width: 375px;
     height: 265px;
     border-radius: 0px;
@@ -961,15 +823,40 @@
     transition: transform .0s linear 0s; 
     }
 
-
-    .tile-9 p {
-    margin: 0 0 0 0;
-    font-size: 11px;
+    .tile-8:hover > .front-8 {
+    -webkit-transform: perspective(100px) rotateY(-180deg);
+    transform: perspective(100px) rotateY(-180deg); 
     }
 
-    .tile-9 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px;
+    .tile-8:hover > .back-8 {
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg);
+    }
+
+
+
+
+    .tile-9 {
+    width: 375px;
+    height: 265px;
+    float: left;
+    padding: 0px 0 0px 0px;
+    background-image: url(../img/busLG.jpg);
+        background-size: cover;
+    }
+
+    .tile-9 > .front-9 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg);
+    background: white;
+    opacity: .5;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; 
     }
 
 
@@ -994,31 +881,12 @@
     }
 
 
-
-    .block-10 p {
-    margin: 0 0 0 0;
-    font-size: 11px;
-    }
-
-    .block-10 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px;
-    }
-
-    .block-10 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px;
-    }
-
     .tile-11 {
     width: 100%;
     height: 100px;
     float: left;
     background-color: silver;
     }
-
-
 
     .social-footer img{
     width: 20px;
@@ -1035,15 +903,12 @@
     }
 
 
-
-
-
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
 
 
     .nav-custom {
-    margin: 70px 0 0 0;
+    margin: 0 0 0 0;
     }
 
     .nav-custom a.navbar-brand {
@@ -1089,22 +954,19 @@
     } 
 
 
-
-
     .tile-1 {
     width: 485px;
     height: 330px;
-    background: transparent;
+    background-image: url(../img/pioneersquareMD.jpg);
     }
 
     .tile-1 > .front-1 {
-    background: green;
+    background: transparent;
     width: 485px;
     height: 330px;
     }
 
     .tile-1 > .back-1 {
-    background: orange;
     width: 485px;
     height: 330px;
     }
@@ -1188,22 +1050,20 @@
     font-size: 30px;
     }
 
-
-
     .tile-4 {
     width: 485px;
     height: 330px;
-    background: transparent;
+    background-image: url(../img/codeMD.jpg);
     }
 
     .tile-4 > .front-4 {
-    background: black;
+    background: transparent;
     width: 485px;
     height: 330px;
     }
 
     .tile-4 > .back-4 {
-    background:  teal;
+    background: transparent;
     width: 485px;
     height: 330px;
     }
@@ -1225,20 +1085,15 @@
     font-size: 30px;
     }
 
+
     .tile-5 {
     width: 485px;
     height: 330px;
-    background: transparent;
+    background: rgb(10, 182, 180);
     }
 
     .tile-5 > .front-5 {
-    background: magenta;
-    width: 485px;
-    height: 330px;
-    }
-
-    .tile-5 > .back-5 {
-    background:  brown;
+    background: transparent;
     width: 485px;
     height: 330px;
     }
@@ -1259,7 +1114,6 @@
     margin: 20px 0 0 5px;
     font-size: 30px;
     }
-
 
 
     .tile-6 {
@@ -1296,10 +1150,6 @@
     font-size: 30px;
     }
 
-
-
-
-
     .tile-7 {
     width: 485px;
     height: 330px;
@@ -1324,27 +1174,20 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     .tile-8 {
     width: 485px;
     height: 330px;
-    background: rgb(10, 182, 180);
+    background-image: url(../img/accountmanMD.jpg);
     }
 
     .tile-8 > .front-8 {
     background: transparent;
+    width: 485px;
+    height: 330px;
+    }
+
+    .tile-8 > .back-8 {
+    background:  transparent;
     width: 485px;
     height: 330px;
     }
@@ -1366,11 +1209,10 @@
     font-size: 30px;
     }
 
-
     .tile-9 {
     width: 485px;
     height: 330px;
-    background: orange;
+    background-image: url(../img/busLG.jpg);
     }
 
     .tile-9 p {
@@ -1492,22 +1334,17 @@
     .tile-1 {
     width: 585px;
     height: 440px;
-    background: transparent;
+        background-image: url(../img/pioneersquare.jpg);
     }
 
     .tile-1 > .front-1 {
-    background-image: url(../img/pioneersquare.jpg);
-    background-size: cover;
-    background-position: right;
+    background: transparent;
     width: 585px;
     height: 440px;
     }
 
 
     .tile-1 > .back-1 {
-    background-image: url(../img/pioneersquare.jpg);
-    background-position: right;
-    background-size: cover;
     width: 585px;
     height: 440px;
     }
@@ -1604,17 +1441,17 @@
     height: 440px;
     float: left;
     padding: 0px 0 0px 0px;
-    background: orange;
+            background-image: url(../img/code.jpg);
     }
 
     .tile-4 > .front-4 {
-    background-image: url(../img/ux.jpg);
+    background: transparent;
     width: 585px;
     height: 440px;
     }
 
     .tile-4 > .back-4 {
-    background-image: url(../img/ux.jpg);
+    background: transparent;
     width: 585px;
     height: 440px;
     }
@@ -1636,22 +1473,14 @@
     }
 
 
-
-
     .tile-5 {
     width: 585px;
     height: 440px;
-    background: transparent;
+    background: rgb(10, 182, 180);
     }
 
     .tile-5 > .front-5 {
-    background: green;
-    width: 585px;
-    height: 440px;
-    }
-
-    .tile-5 > .back-5 {
-    background:  orange;
+    background: transparent;
     width: 585px;
     height: 440px;
     }
@@ -1706,16 +1535,10 @@
     }
 
 
-
-
-
-
-
     .tile-7 {
     width: 585px;
     height: 440px;
     float: left;
-    padding: 0px 0 0px 0px;
     }
 
 
@@ -1741,10 +1564,16 @@
     .tile-8 {
     width: 585px;
     height: 440px;
-    background: rgb(10, 182, 180);
+            background-image: url(../img/accountman.jpg);
     }
 
     .tile-8 > .front-8 {
+    background: transparent;
+    width: 585px;
+    height: 440px;
+    }
+
+    .tile-8 > .back-8 {
     background: transparent;
     width: 585px;
     height: 440px;
@@ -1766,19 +1595,10 @@
     font-size: 38px;
     }
 
-
-
-
-
-
-
-
-
-
     .tile-9 {
     width: 585px;
     height: 440px;
-    background: black;
+    background-image: url(../img/busLG.jpg);
     }
 
 
@@ -1790,7 +1610,7 @@
     width: 80%;
     color: white;
     margin: 100px 0px 50px 48px;
-    font-size: 24px;   
+    font-size: 32px;   
     }
 
 

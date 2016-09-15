@@ -15,25 +15,26 @@ body {
   float: left; }
 
 .nav-custom {
-  margin: 0 0 0 0;
-  background: none !important;
+  margin: 20px 0 0 0;
+  background: white !important;
   border: none !important; }
 
 .nav-custom a.navbar-brand {
   color: black;
   font-size: 25px;
   letter-spacing: -1px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: -10px 0 0 0; }
 
 ul.nav-menu li a {
   opacity: .6;
   color: #000 !important;
-  font-size: 18px;
-  margin: 10px 0 0 0; }
+  font-size: 15px;
+  margin: 0 0 0 0; }
 
 .jumbotron-c {
   float: left;
-  margin: 15px 0 0 0;
+  margin: 10px 0 0 0;
   background-color: white;
   border-radius: 0px; }
 
@@ -110,7 +111,7 @@ p:nth-child(2) {
   height: 100%;
   float: left;
   padding: 0px 0 30px 0px;
-  background-color: silver; }
+  background-color: #E0E0E0; }
 
 .tile-2 > .front-2 {
   width: 100%;
@@ -142,7 +143,7 @@ p:nth-child(2) {
   width: 100%;
   float: left;
   padding: 15px 0 30px 0px;
-  background-color: silver; }
+  background-color: #E0E0E0; }
 
 .tile-3 > .front-3 {
   position: absolute;
@@ -211,7 +212,7 @@ p:nth-child(2) {
   width: 100%;
   float: left;
   padding: 15px 0 30px 0px;
-  background: teal; }
+  background: #0ab6b4; }
 
 .tile-5 > .front-5 {
   position: absolute;
@@ -242,7 +243,7 @@ p:nth-child(2) {
   width: 100%;
   float: left;
   padding: 15px 0 30px 0px;
-  background-color: silver; }
+  background-color: #E0E0E0; }
 
 .tile-6 > .front-6 {
   position: absolute;
@@ -274,7 +275,7 @@ p:nth-child(2) {
   width: 100%;
   float: left;
   padding: 15px 0 30px 0px;
-  background-color: silver; }
+  background-color: #E0E0E0; }
 
 .tile-7 > .front-7 {
   position: absolute;
@@ -311,7 +312,7 @@ p:nth-child(2) {
   width: 100%;
   float: left;
   padding: 15px 0 30px 0px;
-  background: #0ab6b4; }
+  background: teal; }
 
 .tile-8 > .front-8 {
   position: absolute;
@@ -382,7 +383,7 @@ p:nth-child(2) {
   width: 100%;
   float: left;
   padding: 15px 0 30px 0px;
-  background-color: silver;
+  background-color: #E0E0E0;
   border-radius: 0px; }
 
 .tile-10 > .front-10 {
@@ -449,7 +450,7 @@ p.copyright {
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .nav-custom {
-    margin: 75px 0 0 0; }
+    margin: 50px 0 0 0; }
   .nav-custom a.navbar-brand {
     font-size: 28px; }
   ul.nav-menu li a {
@@ -469,12 +470,32 @@ p.copyright {
   p:nth-child(2) {
     margin-top: 1px;
     animation: type2 3s steps(60, end); }
+  .block h2 {
+    color: #fff;
+    margin: 0 0 0 0;
+    text-align: center; }
+  .block h1 {
+    color: #fff;
+    margin: 0 0 0 0;
+    text-align: center; }
+  .block p {
+    color: black;
+    margin: 0 0 0 0;
+    text-align: center; }
+  .block-1 h1 {
+    color: black;
+    margin: 0 0 0 0;
+    text-align: center; }
+  .block-1 h3 {
+    color: white;
+    margin: 0 0 0 0;
+    text-align: center; }
   .tile-1 {
     width: 375px;
     height: 265px;
     float: left;
     padding: 0 0 0 0;
-    background-image: url(../img/pioneersquare.jpg);
+    background-image: url(../img/pioneersquareSM.jpg);
     background-size: cover; }
   .tile-1 > .front-1 {
     position: absolute;
@@ -493,7 +514,8 @@ p.copyright {
     transform: perspective(100px) rotateY(180deg);
     width: 375px;
     height: 265px;
-    background: transparent;
+    background: white;
+    opacity: .5;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -504,16 +526,6 @@ p.copyright {
   .tile-1:hover > .back-1 {
     -webkit-transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg); }
-  .block-1 p {
-    margin: 0 0 0 0;
-    font-size: 11px; }
-  .block-1 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px; }
-  .block-1 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px; }
   .tile-2 {
     width: 375px;
     height: 265px;
@@ -524,18 +536,6 @@ p.copyright {
     height: 265px;
     background-color: transparent;
     border-radius: 0px; }
-  .block-2 p {
-    margin: 0 0 0 0;
-    font-size: 11px; }
-  .block-2 h1 {
-    color: #fff;
-    font-size: 22.5px; }
-  .block-2 h3 {
-    width: 80%;
-    color: white;
-    opacity: .8;
-    margin: 0 0 0 0;
-    font-size: 21.5px; }
   .tile-3 {
     width: 375px;
     height: 265px;
@@ -545,27 +545,18 @@ p.copyright {
     width: 375px;
     height: 265px;
     border-radius: 0px; }
-  .block-3 p {
-    margin: 0 0 0 0;
-    font-size: 11px; }
-  .block-3 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px; }
-  .block-3 h3 {
-    width: 80%;
-    opacity: .8;
-    font-size: 21.5px; }
   .tile-4 {
     width: 375px;
     height: 265px;
     float: left;
     padding: 0px 0 0px 0px;
-    background: transparent; }
+    background-image: url(../img/codeSM.jpg);
+    background-size: cover; }
   .tile-4 > .front-4 {
     position: absolute;
     -webkit-transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg);
-    background-image: url(../img/code.jpg);
+    background: transparent;
     width: 375px;
     height: 265px;
     border-radius: 0px;
@@ -576,7 +567,8 @@ p.copyright {
     position: absolute;
     -webkit-transform: perspective(100px) rotateY(180deg);
     transform: perspective(100px) rotateY(180deg);
-    background-image: url(../img/code.jpg);
+    background: white;
+    opacity: .5;
     width: 375px;
     height: 265px;
     border-radius: 0px;
@@ -589,38 +581,17 @@ p.copyright {
   .tile-4:hover > .back-4 {
     -webkit-transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg); }
-  .block-4 p {
-    margin: 0 0 0 0;
-    font-size: 11px; }
-  .block-4 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px; }
-  .block-4 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px; }
   .tile-5 {
     width: 375px;
     height: 265px;
     float: left;
     padding: 0px 0 0px 0px;
-    background: orange; }
+    background: #0ab6b4; }
   .tile-5 > .front-5 {
     position: absolute;
     -webkit-transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg);
-    background-image: url(../img/accountman.jpg);
-    width: 375px;
-    height: 265px;
-    border-radius: 0px;
-    -webkit-backface-visibility: hidden;
-    transition: -webkit-transform .0s linear 0s;
-    transition: transform .0s linear 0s; }
-  .tile-5 > .back-5 {
-    position: absolute;
-    -webkit-transform: perspective(100px) rotateY(180deg);
-    transform: perspective(100px) rotateY(180deg);
-    background-image: url(../img/accountman.jpg);
+    background: transparent;
     width: 375px;
     height: 265px;
     border-radius: 0px;
@@ -630,19 +601,6 @@ p.copyright {
   .tile-5:hover > .front-5 {
     -webkit-transform: perspective(100px) rotateY(-180deg);
     transform: perspective(100px) rotateY(-180deg); }
-  .tile-5:hover > .back-5 {
-    -webkit-transform: perspective(100px) rotateY(0deg);
-    transform: perspective(100px) rotateY(0deg); }
-  .block-5 p {
-    margin: 0 0 0 0;
-    font-size: 11px; }
-  .block-5 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px; }
-  .block-5 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px; }
   .tile-6 {
     width: 375px;
     height: 265px;
@@ -652,16 +610,6 @@ p.copyright {
     width: 375px;
     height: 265px;
     border-radius: 0px; }
-  .block-6 p {
-    margin: 0 0 0 0;
-    font-size: 11px; }
-  .block-6 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px; }
-  .block-6 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px; }
   .tile-7 {
     width: 375px;
     height: 265px;
@@ -672,17 +620,13 @@ p.copyright {
     width: 375px;
     height: 265px;
     border-radius: 0px; }
-  .block-7 h1 {
-    margin: 115px 0 0 0;
-    width: 80%;
-    text-align: center;
-    font-size: 20px; }
   .tile-8 {
     width: 375px;
     height: 265px;
     float: left;
     padding: 0px 0 0px 0px;
-    background: #0ab6b4; }
+    background-image: url(../img/accountmanSM.jpg);
+    background-size: cover; }
   .tile-8 > .front-8 {
     position: absolute;
     -webkit-transform: perspective(100px) rotateY(0deg);
@@ -694,42 +638,43 @@ p.copyright {
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
     transition: transform .0s linear 0s; }
-  .tile-8:hover > .front-8 {
-    -webkit-transform: perspective(100px) rotateY(-180deg);
-    transform: perspective(100px) rotateY(-180deg); }
-  .block-8 p {
-    margin: 0 0 0 0;
-    font-size: 11px; }
-  .block-8 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px; }
-  .block-8 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px; }
-  .tile-9 {
-    width: 375px;
-    height: 265px;
-    float: left;
-    padding: 0px 0 0px 0px;
-    background: black; }
-  .tile-9 > .front-9 {
+  .tile-8 > .back-8 {
     position: absolute;
-    -webkit-transform: perspective(100px) rotateY(0deg);
-    transform: perspective(100px) rotateY(0deg);
-    background: black;
+    -webkit-transform: perspective(100px) rotateY(180deg);
+    transform: perspective(100px) rotateY(180deg);
+    background: white;
+    opacity: .5;
     width: 375px;
     height: 265px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
     transition: transform .0s linear 0s; }
-  .tile-9 p {
-    margin: 0 0 0 0;
-    font-size: 11px; }
-  .tile-9 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px; }
+  .tile-8:hover > .front-8 {
+    -webkit-transform: perspective(100px) rotateY(-180deg);
+    transform: perspective(100px) rotateY(-180deg); }
+  .tile-8:hover > .back-8 {
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg); }
+  .tile-9 {
+    width: 375px;
+    height: 265px;
+    float: left;
+    padding: 0px 0 0px 0px;
+    background-image: url(../img/busLG.jpg);
+    background-size: cover; }
+  .tile-9 > .front-9 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg);
+    background: white;
+    opacity: .5;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
   #quote {
     position: absolute;
     width: 50%;
@@ -744,16 +689,6 @@ p.copyright {
   .tile-10 > .front-10 {
     width: 375px;
     height: 265px; }
-  .block-10 p {
-    margin: 0 0 0 0;
-    font-size: 11px; }
-  .block-10 h1 {
-    margin: 5px 0 0 0;
-    font-size: 22.5px; }
-  .block-10 h3 {
-    width: 80%;
-    margin: 0 0 0 0;
-    font-size: 21.5px; }
   .tile-11 {
     width: 100%;
     height: 100px;
@@ -771,7 +706,7 @@ p.copyright {
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .nav-custom {
-    margin: 70px 0 0 0; }
+    margin: 0 0 0 0; }
   .nav-custom a.navbar-brand {
     font-size: 28px; }
   ul.nav-menu li a {
@@ -803,13 +738,12 @@ p.copyright {
   .tile-1 {
     width: 485px;
     height: 330px;
-    background: transparent; }
+    background-image: url(../img/pioneersquareMD.jpg); }
   .tile-1 > .front-1 {
-    background: green;
+    background: transparent;
     width: 485px;
     height: 330px; }
   .tile-1 > .back-1 {
-    background: orange;
     width: 485px;
     height: 330px; }
   .block-1 p {
@@ -863,13 +797,13 @@ p.copyright {
   .tile-4 {
     width: 485px;
     height: 330px;
-    background: transparent; }
+    background-image: url(../img/codeMD.jpg); }
   .tile-4 > .front-4 {
-    background: black;
+    background: transparent;
     width: 485px;
     height: 330px; }
   .tile-4 > .back-4 {
-    background: teal;
+    background: transparent;
     width: 485px;
     height: 330px; }
   .block-4 p {
@@ -885,13 +819,9 @@ p.copyright {
   .tile-5 {
     width: 485px;
     height: 330px;
-    background: transparent; }
+    background: #0ab6b4; }
   .tile-5 > .front-5 {
-    background: magenta;
-    width: 485px;
-    height: 330px; }
-  .tile-5 > .back-5 {
-    background: brown;
+    background: transparent;
     width: 485px;
     height: 330px; }
   .block-5 p {
@@ -941,8 +871,12 @@ p.copyright {
   .tile-8 {
     width: 485px;
     height: 330px;
-    background: #0ab6b4; }
+    background-image: url(../img/accountmanMD.jpg); }
   .tile-8 > .front-8 {
+    background: transparent;
+    width: 485px;
+    height: 330px; }
+  .tile-8 > .back-8 {
     background: transparent;
     width: 485px;
     height: 330px; }
@@ -959,7 +893,7 @@ p.copyright {
   .tile-9 {
     width: 485px;
     height: 330px;
-    background: orange; }
+    background-image: url(../img/busLG.jpg); }
   .tile-9 p {
     margin: 10px 18px 0 5px;
     font-size: 13px; }
@@ -1036,17 +970,12 @@ p.copyright {
   .tile-1 {
     width: 585px;
     height: 440px;
-    background: transparent; }
+    background-image: url(../img/pioneersquare.jpg); }
   .tile-1 > .front-1 {
-    background-image: url(../img/pioneersquare.jpg);
-    background-size: cover;
-    background-position: right;
+    background: transparent;
     width: 585px;
     height: 440px; }
   .tile-1 > .back-1 {
-    background-image: url(../img/pioneersquare.jpg);
-    background-position: right;
-    background-size: cover;
     width: 585px;
     height: 440px; }
   .block-1 p {
@@ -1111,13 +1040,13 @@ p.copyright {
     height: 440px;
     float: left;
     padding: 0px 0 0px 0px;
-    background: orange; }
+    background-image: url(../img/code.jpg); }
   .tile-4 > .front-4 {
-    background-image: url(../img/ux.jpg);
+    background: transparent;
     width: 585px;
     height: 440px; }
   .tile-4 > .back-4 {
-    background-image: url(../img/ux.jpg);
+    background: transparent;
     width: 585px;
     height: 440px; }
   .block-4 p {
@@ -1133,13 +1062,9 @@ p.copyright {
   .tile-5 {
     width: 585px;
     height: 440px;
-    background: transparent; }
+    background: #0ab6b4; }
   .tile-5 > .front-5 {
-    background: green;
-    width: 585px;
-    height: 440px; }
-  .tile-5 > .back-5 {
-    background: orange;
+    background: transparent;
     width: 585px;
     height: 440px; }
   .block-5 p {
@@ -1174,8 +1099,7 @@ p.copyright {
   .tile-7 {
     width: 585px;
     height: 440px;
-    float: left;
-    padding: 0px 0 0px 0px; }
+    float: left; }
   .tile-7 > .front-7 {
     width: 585px;
     height: 440px; }
@@ -1189,8 +1113,12 @@ p.copyright {
   .tile-8 {
     width: 585px;
     height: 440px;
-    background: #0ab6b4; }
+    background-image: url(../img/accountman.jpg); }
   .tile-8 > .front-8 {
+    background: transparent;
+    width: 585px;
+    height: 440px; }
+  .tile-8 > .back-8 {
     background: transparent;
     width: 585px;
     height: 440px; }
@@ -1207,14 +1135,14 @@ p.copyright {
   .tile-9 {
     width: 585px;
     height: 440px;
-    background: black; }
+    background-image: url(../img/busLG.jpg); }
   .quoteHolder {
     margin: 20px 0 0 0; }
   #quote {
     width: 80%;
     color: white;
     margin: 100px 0px 50px 48px;
-    font-size: 24px; }
+    font-size: 32px; }
   .tile-10 {
     width: 585px;
     height: 440px; }
