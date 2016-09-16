@@ -16,7 +16,7 @@ quotesArr[10] = '"I realized that the feeling of making progress is just as impo
 quotesArr[11] = '"Clearly, I reject the view that there is only one way that is right for everyone and for every problem." <br><br> Bjarne Stroustrup';
 
 // cycle through the quotes automatically 
-setInterval(displayDetails, 3000);
+setInterval(displayDetails, 3500);
 
 function displayDetails()
 {
