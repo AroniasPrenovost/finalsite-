@@ -1,7 +1,7 @@
 // quote generator
 
-var quotesArr = [];
 
+var quotesArr = [];
 quotesArr[0] = '"Playfully doing something difficult, whether useful or not, that is hacking." <br><br> Richard Stallman';
 quotesArr[1] = '"Sharing is good, and with digital technology, sharing is easy." <br><br> Richard Stallman';
 quotesArr[2] = '"Most good programmers do programming...because it is fun to program." <br><br> Linus Torvalds';
@@ -15,15 +15,13 @@ quotesArr[9] = '"Just take it slow and do not hurt your brain." <br><br> Zed Sha
 quotesArr[10] = '"I realized that the feeling of making progress is just as important as making actual progress." <br><br> John Resig';
 quotesArr[11] = '"Clearly, I reject the view that there is only one way that is right for everyone and for every problem." <br><br> Bjarne Stroustrup';
 
-// cycle through the quotes automatically 
+// cycle through the quotes
 setInterval(displayDetails, 3500);
 
-function displayDetails()
-{
+function displayDetails(){
 	var randomQuote = Math.floor(Math.random() * (quotesArr.length - 0));
 	document.getElementById("quote").innerHTML = quotesArr[randomQuote];
-};
-
+	};
 
 
 

@@ -16,5 +16,3 @@ stroke((900));
 line(random(mouseX), random(mouseX), 280, 170);
 }
 
-
-

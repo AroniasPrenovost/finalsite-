@@ -19,15 +19,18 @@ body {
   background: white !important;
   border: none !important; }
 
+button.navbar-toggle.collapsed {
+  background-color: #4867b8; }
+
 .nav-custom a.navbar-brand {
-  color: black;
+  color: #4867b8;
   font-size: 25px;
   letter-spacing: -1px;
   font-weight: bold;
   margin: -10px 0 0 0; }
 
 ul.nav-menu li a {
-  opacity: .6;
+  opacity: 1;
   color: #000 !important;
   font-size: 15px;
   margin: 0 0 0 0; }
@@ -40,8 +43,9 @@ ul.nav-menu li a {
 
 .jumbotron-c p {
   font-size: 33px;
-  font-family: 'Libre Franklin', sans-serif;
-  color: black;
+  font-family: 'Open Sans', sans-serif;
+  color: #646464;
+  font-weight: 500;
   margin: 0 0 0 0;
   text-align: center; }
 
@@ -55,7 +59,7 @@ p:nth-child(2) {
 .box-content {
   width: 100%;
   float: left;
-  padding: 30px 0 0 0; }
+  padding: 0 0 0 0; }
 
 .box-content .col-md-6 {
   padding: 0; }
@@ -64,11 +68,14 @@ p:nth-child(2) {
   width: 100%;
   height: 100%;
   float: left;
-  padding: 15px 0 30px 0px; }
+  margin: 0 0 0 0; }
 
 .tile-1 > .front-1 {
+  display: none; }
+
+.tile-1 > .back-1 {
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 0px;
   background: transparent; }
 
@@ -76,81 +83,69 @@ img {
   max-width: 100%;
   height: auto; }
 
-.block-1 p {
-  margin: 100px 0 0 0;
-  color: #fff;
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 12px; }
+.block h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin: 20px 0 10px 0;
+  text-align: center;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  color: #4867b8; }
+
+.block h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin-top: 0px;
+  font-variant: normal;
+  font-weight: 300;
+  text-align: center;
+  color: #646464; }
+
+.block p {
+  text-align: center;
+  color: #898989;
+  padding: 0 25px 0 25px;
+  font-size: 12px;
+  font-family: 'Open Sans'; }
+
+.block-1 h1 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-variant: normal;
+  font-family: 'Open Sans';
+  margin: 100px 40px 0 40px;
+  font-size: 25px;
+  font-weight: 700; }
 
 .tile-2 {
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: 180px;
   float: left;
-  padding: 0px 0 30px 0px;
-  background-color: #E0E0E0; }
+  margin: 0 0 0 0;
+  background-color: white; }
 
 .tile-2 > .front-2 {
+  position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 0px; }
 
-.block-2 p {
-  padding: 36px 10px 0 36px;
-  color: #fff;
-  font-size: 12px;
-  margin-bottom: -20px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-2 h1 {
-  color: #fff;
-  padding: 0 0 0 36px;
-  font-size: 20px;
-  margin-bottom: -10px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-2 h3 {
-  width: 90%;
-  color: white;
-  padding: 20px 0 20px 36px;
-  font-size: 20px;
-  font-family: 'Libre Franklin', sans-serif; }
-
 .tile-3 {
+  position: relative;
   width: 100%;
+  height: 180px;
   float: left;
-  padding: 15px 0 30px 0px;
-  background-color: #E0E0E0; }
+  margin: 0 0 0 0;
+  background-color: #f2f2f2; }
 
 .tile-3 > .front-3 {
   position: absolute;
-  background: transparent;
+  width: 100%;
+  height: 100%;
   border-radius: 0px; }
-
-.tile-3 > .front-3 {
-  position: absolute;
-  background: transparent;
-  border-radius: 0px; }
-
-.block-3 p {
-  padding: 36px 10px 0 36px;
-  color: #fff;
-  font-size: 12px;
-  margin-bottom: -20px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-3 h1 {
-  color: #fff;
-  padding: 0 0 0 36px;
-  font-size: 20px;
-  margin-bottom: -10px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-3 h3 {
-  width: 90%;
-  color: white;
-  padding: 20px 0 20px 36px;
-  font-size: 20px;
-  font-family: 'Libre Franklin', sans-serif; }
 
 .tile-4 {
   width: 100%;
@@ -168,118 +163,56 @@ img {
   max-width: 100%;
   height: auto; }
 
-.block-4 p {
-  padding: 36px 10px 0 36px;
-  color: #fff;
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 12px;
-  margin-bottom: -20px; }
-
 .tile-5 {
   width: 100%;
+  height: 260px;
+  /* hacky move to overlap with the canvas */
   float: left;
-  padding: 15px 0 30px 0px;
+  margin: 0 0 0 0;
   background: #0ab6b4; }
 
 .tile-5 > .front-5 {
   position: absolute;
   border-radius: 0px; }
 
-.block-5 p {
-  padding: 36px 10px 0 36px;
-  color: #fff;
-  font-size: 12px;
-  margin-bottom: -20px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-5 h1 {
-  color: #fff;
-  padding: 0 0 0 36px;
-  font-size: 20px;
-  margin-bottom: -10px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-5 h3 {
-  width: 90%;
-  color: white;
-  padding: 20px 0 20px 36px;
-  font-size: 20px;
-  font-family: 'Libre Franklin', sans-serif; }
+.front-5 > .block-1 h1 {
+  color: black;
+  margin: 105px 0 0 116px;
+  font-size: 28px; }
 
 .tile-6 {
+  position: relative;
   width: 100%;
+  height: 180px;
   float: left;
-  padding: 15px 0 30px 0px;
-  background-color: #E0E0E0; }
+  margin: 0 0 0 0;
+  background-color: white; }
 
 .tile-6 > .front-6 {
   position: absolute;
-  background: transparent;
+  width: 100%;
+  height: 100%;
   border-radius: 0px; }
 
-.block-6 p {
-  padding: 36px 10px 0 36px;
-  color: #fff;
-  font-size: 12px;
-  margin-bottom: -20px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-6 h1 {
-  color: #fff;
-  padding: 0 0 0 36px;
-  font-size: 20px;
-  margin-bottom: -10px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-6 h3 {
-  width: 90%;
-  color: white;
-  padding: 20px 0 20px 36px;
-  font-size: 20px;
-  font-family: 'Libre Franklin', sans-serif; }
-
 .tile-7 {
+  position: relative;
   width: 100%;
+  height: 180px;
   float: left;
-  padding: 15px 0 30px 0px;
-  background-color: #E0E0E0; }
+  margin: 0 0 0 0;
+  background-color: #f2f2f2; }
 
 .tile-7 > .front-7 {
   position: absolute;
-  background: transparent;
+  width: 100%;
+  height: 100%;
   border-radius: 0px; }
-
-.tile-7 > .back-7 {
-  position: absolute;
-  background: transparent;
-  border-radius: 0px; }
-
-.block-7 p {
-  padding: 36px 10px 0 36px;
-  color: #fff;
-  font-size: 12px;
-  margin-bottom: -20px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-7 h1 {
-  color: #fff;
-  padding: 0 0 0 36px;
-  font-size: 20px;
-  margin-bottom: -10px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-7 h3 {
-  width: 90%;
-  color: white;
-  padding: 20px 0 20px 36px;
-  font-size: 20px;
-  font-family: 'Libre Franklin', sans-serif; }
 
 .tile-8 {
   width: 100%;
   height: 100%;
   float: left;
-  padding: 15px 0 30px 0px; }
+  margin: 0 0 0 0; }
 
 .tile-8 > .front-8 {
   width: 100%;
@@ -291,18 +224,15 @@ img {
   max-width: 100%;
   height: auto; }
 
-.block-8 p {
-  padding: 36px 10px 0 36px;
-  color: #fff;
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 12px;
-  margin-bottom: -20px; }
-
 .tile-9 {
+  position: relative;
   width: 100%;
+  height: 200px;
   float: left;
-  padding: 15px 0 30px 0px;
-  background-image: url(../img/busSM.jpg); }
+  margin: 0 0 0 0;
+  background-image: url(../img/busMD.jpg);
+  background-image: cover;
+  background-repeat: no-repeat; }
 
 .tile-9 > .front-9 {
   width: 100%;
@@ -316,68 +246,55 @@ img {
 
 #quote {
   position: absolute;
-  width: 60%;
+  width: 100%;
   height: auto;
   color: white;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-  margin: 50px 0 0 0;
-  font-size: 14px; }
+  margin: 70px 0 10px 0;
+  font-size: 16px;
+  font-weight: 700; }
 
 .tile-10 {
+  position: relative;
   width: 100%;
+  height: 180px;
   float: left;
-  padding: 15px 0 30px 0px;
-  background-color: #E0E0E0;
-  border-radius: 0px; }
+  margin: 0 0 0 0;
+  background-color: white; }
 
 .tile-10 > .front-10 {
   position: absolute;
-  background: transparent;
+  width: 100%;
+  height: 100%;
   border-radius: 0px; }
-
-.tile-10 > .back-10 {
-  position: absolute;
-  background: transparent;
-  border-radius: 0px; }
-
-.block-10 p {
-  padding: 0 0 0 25px;
-  color: #fff;
-  font-size: 12px;
-  margin-bottom: -20px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-10 h1 {
-  color: #fff;
-  margin: 0 0 0 25px;
-  font-size: 20px;
-  font-family: 'Libre Franklin', sans-serif; }
-
-.block-10 h3 {
-  width: 90%;
-  color: white;
-  padding: 5px 0 20px 25px;
-  font-size: 18px;
-  font-family: 'Libre Franklin', sans-serif; }
 
 .tile-11 {
   width: 100%;
-  height: 50px;
+  height: 80px;
   float: left;
-  margin: 15px 0 0 0;
-  background: gray; }
+  margin: 0 0 0 0;
+  background-color: #f2f2f2; }
 
 .tile-11 > .front-11 {
   position: absolute;
   border-radius: 0px; }
 
-p.footer-blurb {
-  color: red;
-  opacity: 0.5;
-  margin: 0 0 0 0;
-  font-size: 1.2rem;
-  text-align: left;
-  font-family: 'Libre Franklin', sans-serif; }
+.social-footer {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  float: right; }
+
+.social-footer img {
+  margin: 25px 0 0 10px; }
+
+.footer-block p {
+  width: 100%;
+  color: #4867b8;
+  font-size: 12px;
+  margin: 35px 0 0 20px;
+  font-family: 'Open Sans'; }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
@@ -392,7 +309,7 @@ p.footer-blurb {
     height: 140px;
     margin: 40px 0 0 0; }
   .jumbotron-c p {
-    font-size: 30px;
+    font-size: 33px;
     white-space: nowrap;
     overflow: hidden; }
   p:nth-child(2) {
@@ -400,28 +317,24 @@ p.footer-blurb {
   .jumbotron-c span {
     color: black;
     font-size: 35px;
-    animation: blinker .8s linear infinite; }
+    animation: blinker 1.2s linear infinite; }
   @keyframes blinker {
     50% {
       opacity: 0.0; } }
-  .block h1 {
-    color: #fff;
-    margin: 30px 0 0 0;
-    text-align: center; }
   .block h2 {
-    color: #fff;
-    margin: 10px 0 0 0;
+    margin: 40px 0 10px 0;
+    font-size: 16px;
     text-align: center; }
+  .block h1 {
+    margin: 10px 0 0 0px;
+    font-size: 24px; }
   .block p {
-    color: #fff;
-    margin: 10px 0 0 0;
-    text-align: center; }
-  .block-1 h1 {
-    color: white;
-    text-decoration: bold;
-    margin: 90px 0 0 0;
+    margin: 10px 16px 0 16px;
     text-align: center;
-    font-family: sans-serif; }
+    font-size: 14px; }
+  .block-1 h1 {
+    margin: 115px 0 0 35px;
+    font-size: 26px; }
   .tile-1 {
     width: 375px;
     height: 265px;
@@ -459,12 +372,11 @@ p.footer-blurb {
   .tile-2 {
     width: 375px;
     height: 265px;
-    float: left; }
+    background-color: #f2f2f2; }
   .tile-2 > .front-2 {
     position: absolute;
     width: 375px;
     height: 265px;
-    background-color: transparent;
     border-radius: 0px; }
   .tile-3 {
     width: 375px;
@@ -478,7 +390,6 @@ p.footer-blurb {
   .tile-4 {
     width: 375px;
     height: 265px;
-    float: left;
     padding: 0px 0 0px 0px; }
   .tile-4 > .front-4 {
     position: absolute;
@@ -512,7 +423,6 @@ p.footer-blurb {
   .tile-5 {
     width: 375px;
     height: 265px;
-    float: left;
     padding: 0px 0 0px 0px;
     background: #0ab6b4; }
   .tile-5 > .front-5 {
@@ -529,10 +439,13 @@ p.footer-blurb {
   .tile-5:hover > .front-5 {
     -webkit-transform: perspective(100px) rotateY(-180deg);
     transform: perspective(100px) rotateY(-180deg); }
+  .front-5 > .block-1 h1 {
+    margin: 120px 0 0 120px;
+    font-size: 28px; }
   .tile-6 {
     width: 375px;
     height: 265px;
-    float: left; }
+    background-color: #f2f2f2; }
   .tile-6 > .front-6 {
     position: absolute;
     width: 375px;
@@ -541,8 +454,7 @@ p.footer-blurb {
   .tile-7 {
     width: 375px;
     height: 265px;
-    float: left;
-    padding: 0px 0 0px 0px; }
+    background-color: #f2f2f2; }
   .tile-7 > .front-7 {
     position: absolute;
     width: 375px;
@@ -551,8 +463,7 @@ p.footer-blurb {
   .tile-8 {
     width: 375px;
     height: 265px;
-    float: left;
-    padding: 0px 0 0px 0px; }
+    margin: 0px 0 0px 0px; }
   .tile-8 > .front-8 {
     position: absolute;
     -webkit-transform: perspective(100px) rotateY(0deg);
@@ -585,8 +496,7 @@ p.footer-blurb {
   .tile-9 {
     width: 375px;
     height: 265px;
-    float: left;
-    padding: 0px 0 0px 0px;
+    margin: 0px 0 0px 0px;
     background-image: url(../img/busSM.jpg); }
   .tile-9 > .front-9 {
     position: absolute;
@@ -596,32 +506,27 @@ p.footer-blurb {
     height: 265px;
     border-radius: 0px; }
   #quote {
-    position: absolute;
-    width: 50%;
-    font-color: white;
-    text-align: center;
+    width: 100%;
     margin: 100px 0 0 0;
-    font-size: 21px; }
+    font-size: 16px; }
   .tile-10 {
     width: 375px;
     height: 265px;
-    float: left; }
+    background-color: #f2f2f2; }
   .tile-10 > .front-10 {
     width: 375px;
     height: 265px; }
   .tile-11 {
     width: 100%;
     height: 100px;
-    float: left;
-    background-color: silver; }
+    background-color: gray; }
   .social-footer img {
     width: 20px;
     height: 20px;
-    margin: 0 0 20px 0;
-    float: left; }
-  p.copyright {
-    font-size: 12px;
-    margin: 30px 0 0 0; } }
+    margin: 0 0 20px 0; }
+  .footer-block p {
+    font-size: 16px;
+    margin: 30px 0 0 20px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
@@ -640,22 +545,23 @@ p.footer-blurb {
     font-size: 45px; }
   p:nth-child(2) {
     margin-top: -5px; }
-  .block h1 {
-    margin: 40px 0 0 0; }
-  .block h2 {
-    margin: 20px 0 0 0; }
-  .block p {
-    color: #fff;
-    margin: 20px 0 0 0;
-    text-align: center; }
   .block-1 h1 {
-    margin: 70px 0 0 0;
-    font-size: 25px; }
+    margin: 110px 0 0 25px;
+    font-size: 40px; }
+  .block h2 {
+    margin: 20px 0 0 0;
+    font-size: 20px; }
+  .block h1 {
+    margin: 40px 0 0px 0;
+    font-size: 38px; }
+  .block p {
+    margin: 20px 0 0 0;
+    font-size: 18px;
+    margin: 10px 18px 0 18px; }
   .tile-1 {
     width: 485px;
     height: 330px; }
   .tile-1 > .front-1 {
-    background: transparent;
     width: 485px;
     height: 330px; }
   .tile-1 > .back-1 {
@@ -670,16 +576,6 @@ p.footer-blurb {
   .tile-2 > .back-2 {
     width: 485px;
     height: 330px; }
-  .block-2 p {
-    margin: 10px 18px 0 5px;
-    font-size: 13px; }
-  .block-2 h1 {
-    margin: 5px 0 0 5px;
-    font-size: 25px; }
-  .block-2 h3 {
-    width: 80%;
-    margin: 20px 0 0 5px;
-    font-size: 30px; }
   .tile-3 {
     width: 485px;
     height: 330px; }
@@ -689,16 +585,6 @@ p.footer-blurb {
   .tile-3 > .back-3 {
     width: 485px;
     height: 330px; }
-  .block-3 p {
-    margin: 10px 18px 0 5px;
-    font-size: 13px; }
-  .block-3 h1 {
-    margin: 5px 0 0 5px;
-    font-size: 25px; }
-  .block-3 h3 {
-    width: 80%;
-    margin: 20px 0 0 5px;
-    font-size: 30px; }
   .tile-4 {
     width: 485px;
     height: 330px; }
@@ -708,34 +594,13 @@ p.footer-blurb {
   .tile-4 > .back-4 {
     width: 485px;
     height: 330px; }
-  .block-4 p {
-    margin: 10px 18px 0 5px;
-    font-size: 13px; }
-  .block-4 h1 {
-    margin: 5px 0 0 5px;
-    font-size: 25px; }
-  .block-4 h3 {
-    width: 80%;
-    margin: 20px 0 0 5px;
-    font-size: 30px; }
   .tile-5 {
     width: 485px;
     height: 330px;
     background: #0ab6b4; }
   .tile-5 > .front-5 {
-    background: transparent;
     width: 485px;
     height: 330px; }
-  .block-5 p {
-    margin: 10px 18px 0 5px;
-    font-size: 13px; }
-  .block-5 h1 {
-    margin: 5px 0 0 5px;
-    font-size: 25px; }
-  .block-5 h3 {
-    width: 80%;
-    margin: 20px 0 0 5px;
-    font-size: 30px; }
   .tile-6 {
     width: 485px;
     height: 330px; }
@@ -745,16 +610,6 @@ p.footer-blurb {
   .tile-6 > .back-6 {
     width: 485px;
     height: 330px; }
-  .block-6 p {
-    margin: 10px 18px 0 5px;
-    font-size: 13px; }
-  .block-6 h1 {
-    margin: 5px 0 0 5px;
-    font-size: 25px; }
-  .block-6 h3 {
-    width: 80%;
-    margin: 20px 0 0 5px;
-    font-size: 30px; }
   .tile-7 {
     width: 485px;
     height: 330px;
@@ -766,10 +621,6 @@ p.footer-blurb {
   .tile-7 > .back-7 {
     width: 485px;
     height: 330px; }
-  .block-7 h1 {
-    margin: 120px 0 0 0;
-    width: 90%;
-    font-size: 25px; }
   .tile-8 {
     width: 485px;
     height: 330px; }
@@ -783,12 +634,6 @@ p.footer-blurb {
     width: 485px;
     height: 330px;
     background-image: url(../img/busMD.jpg); }
-  .tile-9 p {
-    margin: 10px 18px 0 5px;
-    font-size: 13px; }
-  .tile-9 h1 {
-    margin: 5px 0 0 5px;
-    font-size: 25px; }
   #quote {
     width: 100%;
     margin: 125px 0 0 0;
@@ -802,16 +647,6 @@ p.footer-blurb {
   .tile-10 > .back-10 {
     width: 485px;
     height: 330px; }
-  .block-10 p {
-    margin: 10px 18px 0 5px;
-    font-size: 13px; }
-  .block-10 h1 {
-    margin: 5px 0 0 5px;
-    font-size: 25px; }
-  .block-10 h3 {
-    width: 80%;
-    margin: 20px 0 0 5px;
-    font-size: 30px; }
   .tile-11 {
     width: 100%;
     height: 200px; }
@@ -820,9 +655,9 @@ p.footer-blurb {
     height: 20px;
     margin: 0 0 20px 0;
     float: left; }
-  p.copyright {
-    font-size: 15px;
-    margin: 30px 0 0 0; } }
+  .footer-block p {
+    font-size: 16px;
+    margin: 30px 0 0 20px; } }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
@@ -841,14 +676,17 @@ p.footer-blurb {
     font-size: 45px; }
   p:nth-child(2) {
     margin-top: -10px; }
-  .block h1 {
-    margin: 50px 0 0 0; }
-  .block h2 {
-    margin: 30px 0 0 0; }
-  .block p {
-    margin: 30px 0 0 0; }
   .block-1 h1 {
-    margin: 95px 0 0 0; }
+    margin: 150px 0 0 22.5px; }
+  .block h2 {
+    margin: 35px 0 0 0;
+    font-size: 30px; }
+  .block h1 {
+    margin: 18px 0 0 0;
+    font-size: 48px; }
+  .block p {
+    margin: 30px 15px 0 15px;
+    font-size: 24px; }
   .tile-1 {
     width: 585px;
     height: 440px; }
@@ -867,23 +705,6 @@ p.footer-blurb {
   .tile-2 > .back-2 {
     width: 585px;
     height: 440px; }
-  .block-2 p {
-    margin: 15px 20px 0 15px;
-    color: #fff;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 15px; }
-  .block-2 h1 {
-    color: #fff;
-    margin: 5px 0 0 15px;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 30px; }
-  .block-2 h3 {
-    width: 80%;
-    color: white;
-    opacity: .8;
-    margin: 10px 0 0 15px;
-    font-size: 38px;
-    font-family: 'Libre Franklin', sans-serif; }
   .tile-3 {
     width: 585px;
     height: 440px; }
@@ -893,18 +714,6 @@ p.footer-blurb {
   .tile-3 > .back-3 {
     width: 585px;
     height: 440px; }
-  .block-3 p {
-    margin: 15px 20px 0 15px;
-    color: #fff;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 15px; }
-  .block-3 h1 {
-    margin: 5px 0 0 15px;
-    font-size: 30px; }
-  .block-3 h3 {
-    width: 80%;
-    margin: 35px 0 0 15px;
-    font-size: 38px; }
   .tile-4 {
     width: 585px;
     height: 440px; }
@@ -914,16 +723,6 @@ p.footer-blurb {
   .tile-4 > .back-4 {
     width: 585px;
     height: 440px; }
-  .block-4 p {
-    margin: 15px 20px 0 15px;
-    font-size: 15px; }
-  .block-4 h1 {
-    margin: 5px 0 0 15px;
-    font-size: 32px; }
-  .block-4 h3 {
-    width: 80%;
-    margin: 10px 0 0 15px;
-    font-size: 38px; }
   .tile-5 {
     width: 585px;
     height: 440px;
@@ -932,16 +731,6 @@ p.footer-blurb {
     background: transparent;
     width: 585px;
     height: 440px; }
-  .block-5 p {
-    margin: 15px 20px 0 15px;
-    font-size: 15px; }
-  .block-5 h1 {
-    margin: 5px 0 0 15px;
-    font-size: 30px; }
-  .block-5 h3 {
-    width: 80%;
-    margin: 10px 0 0 15px;
-    font-size: 38px; }
   .tile-6 {
     width: 585px;
     height: 440px; }
@@ -951,16 +740,6 @@ p.footer-blurb {
   .tile-6 > .back-6 {
     width: 585px;
     height: 440px; }
-  .block-6 p {
-    margin: 15px 20px 0 15px;
-    font-size: 15px; }
-  .block-6 h1 {
-    margin: 5px 0 0 15px;
-    font-size: 30px; }
-  .block-6 h3 {
-    width: 80%;
-    margin: 10px 0 0 15px;
-    font-size: 38px; }
   .tile-7 {
     width: 585px;
     height: 440px;
@@ -971,10 +750,6 @@ p.footer-blurb {
   .tile-7 > .back-7 {
     width: 585px;
     height: 440px; }
-  .block-7 h1 {
-    margin: 180px 0 0 0;
-    font-size: 28px;
-    width: 90%; }
   .tile-8 {
     width: 585px;
     height: 440px; }
@@ -984,22 +759,11 @@ p.footer-blurb {
   .tile-8 > .back-8 {
     width: 585px;
     height: 440px; }
-  .block-8 p {
-    margin: 15px 20px 0 15px;
-    font-size: 15px; }
-  .block-8 h1 {
-    margin: 5px 0 0 15px;
-    font-size: 30px; }
-  .block-8 h3 {
-    width: 80%;
-    margin: 10px 0 0 15px;
-    font-size: 38px; }
   .tile-9 {
     width: 585px;
     height: 440px;
     background-image: url(../img/busLG.jpg); }
   #quote {
-    color: white;
     margin: 140px 0 0 0;
     font-size: 30px; }
   .tile-10 {
@@ -1011,15 +775,6 @@ p.footer-blurb {
   .tile-10 > .back-10 {
     width: 585px;
     height: 440px; }
-  .block-10 p {
-    margin: 45px 0 0 45px;
-    font-size: 15px; }
-  .block-10 h1 {
-    margin: 5px 0 0 45px;
-    font-size: 30px; }
-  .block-10 h3 {
-    margin: 20px 0 0 22.5px;
-    font-size: 36px; }
   .tile-11 {
     width: 100%;
     height: 200px; }
@@ -1028,6 +783,6 @@ p.footer-blurb {
     height: 20px;
     margin: 0 0 20px 0;
     float: left; }
-  p.copyright {
+  .footer-block p {
     font-size: 16px;
-    margin: 30px 0 0 0; } }
+    margin: 30px 0 0 20px; } }
