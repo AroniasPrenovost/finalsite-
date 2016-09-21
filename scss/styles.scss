@@ -1,3 +1,5 @@
+@media only screen and (min-width : 480px) {
+
 body {
     margin:0px;
 }
@@ -344,8 +346,10 @@ img {
     font-family: 'Open Sans';
 }
 
+} /* media query */ 
+
 /* Small Devices, Tablets */
-@media only screen and (min-width:768px) {
+@media only screen and (min-width : 768px) {
 
 
     .nav-custom {
