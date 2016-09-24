@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="244" height="46" viewBox="0 0 244 46">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 22px;
+        fill: #4867b8;
+        text-anchor: middle;
+        font-family: "Open Sans";
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+
+      .cls-2 {
+        font-size: 26px;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <text id="Aron_Prenovost_Development" data-name="Aron Prenovost Development" class="cls-1" x="122" y="19"><tspan x="122">Aron Prenovost</tspan><tspan class="cls-2" x="122" dy="23.998">Development</tspan></text>
+  <image id="next" x="220" width="24" height="46" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAuCAQAAACYXRHDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgCQwWMzK5QYeZAAABmklEQVRIx43QPWgUQRiA4efmiCCChdilTWudVgKKhQqBNPEgUciCSWGhgieCIgY8QbAxUVjBcHASMVUURYtgJ9a2lloIVjaCmsTicrd7P7s7X7M7w/sU89WWVl103aaCSYfOwSWTOhoiJ7iDoB1LgmdWDshsHOCJqwheOh8HeOQmJmxVk3DwbcWS0P/LyEwcoOUeJrwpI2HgdNsDHC4jYejcrCJh5KZHtk3HAZoe44gP48g4wBVPcXQcGQ/2rfRIMh0D8uRtciIGdEkHx+zkSTFg36IXOJ4nZYBdC8OkHOTJu2QqBkh3LXqNSR+TqQhA+s9cRiIA6Z8+2YwC+c1FgeSQLefw3XwEyOUn06+VIKnbyPLqLdW1zeNHN68CdW0X8NOpbl4OQj+fSb9kl0VTszaaF4OadZfxazAvAll+ejAvAmu93OfRh41Oy3JRPg603MBvZ8blo6CXn/WpaNf5We3nO0XbzoOmW1V5HjTdx1+zZXkGevmc91SDa/18m2qw7GFsTrBkHXsaMTnBXexZ8ComJ3jum4ZOXM5/5AKDWp5wEJkAAAAASUVORK5CYII="/>
+  <image id="next_copy" data-name="next copy" width="24" height="46" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAuCAQAAACYXRHDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgCQwWMzK5QYeZAAABnElEQVRIx5XWTygEURzA8e8+f0rKQW6ue92zq6bIAbW1ylK7Ka9wcOBgpUiUVcrFokaRohUnRBw2Nzm7OnJQTi7K/8MwM7s7M++37zTN+36a6c3Ue7FRooftXulB1tirRzj0MPsoRlRNOSyIgE7+5RP2jgDofo5QwJS9BUag+zmhAZi118EMvDzv3IgGVmUeDSzOaQCWvDwKWJzTBKza8/7bypjnyieCQQenTk6uckoF5tc0AxvVeRDo4JoWYJvJoIer0HyCHzNIcBGdl4MEJVqBg/DcDxKUaAMOyYbnHvDyDF9gAnEuZbkD4tzQDpyRNeWgfHmKT1MOiqKbv5tzUFErEgzSPAF9nNAoAw901kIU+MgedRLgkGcgzb6J/H/pB7p4AYZMxPuX7rFcoiTATwrEJMAhr8AYm2Gk8uH3dEeT6re9c0lBBjwyTl4G4I4e3oCZahK2gLf0OkTnZQBKLlmWAY/M6ZwMQIkkH8CKR0w70BWpcmLc4+xTl0yLgI+s6XGIyY4OeoAiCtDCk4B9TIZvYFEIwD5gmEd2fwHogIPrmbQItwAAAABJRU5ErkJggg=="/>
+</svg>
