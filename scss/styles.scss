@@ -1,1122 +1,800 @@
 body {
-    margin:0px;
-}
+  margin: 0px; }
 
 .site {
-    width: 100%;
-    float: left;
-    padding: 0 0 0 0;
-}
+  width: 100%;
+  float: left;
+  padding: 0 0 0 0; }
 
 .head-top .container {
-    padding: 0;
-}
+  padding: 0; }
 
 .head-top {
-    margin: 0 0 0 0;
-    width: 100%;
-    float: left;
-}
+  margin: 0 0 0 0;
+  width: 100%;
+  float: left; }
 
 .nav-custom {
-    margin: 20px 0 0 0;
-    background: white !important;
-    border: none !important;
-}
+  margin: 20px 0 0 0;
+  background: white !important;
+  border: none !important; }
 
 button.navbar-toggle.collapsed {
-    background-color: rgb(72, 103, 184);
-}
+  background-color: #4867b8; }
 
 .nav-custom a.navbar-brand {
-    color: rgb(72, 103, 184);
-    font-size:25px;
-    letter-spacing: -1px;
-    font-weight: bold;
-    margin: -10px 0 0 0;
-} 
+  color: #4867b8;
+  font-size: 25px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  margin: -10px 0 0 0; }
 
 ul.nav-menu li a {
-    opacity: 1;
-    color: #000 !important;
-    font-size: 15px;
-    margin: 0 0 0 0;
-}
-
+  opacity: 1;
+  color: #000 !important;
+  font-size: 15px;
+  margin: 0 0 0 0; }
 
 .jumbotron-c {
-    float: left;
-    margin: 10px 0 0 0;
-    background-color: white;
-    border-radius: 0px;
-}
+  float: left;
+  margin: 10px 0 0 0;
+  background-color: white;
+  border-radius: 0px; }
 
-.jumbotron-c p{
-    font-size: 32px;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(100, 100, 100);
-    font-weight: 500;
-    margin: 0 0 0 0;
-    text-align: left;
-}
+.jumbotron-c p {
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  color: #646464;
+  font-weight: 500;
+  margin: 0 0 0 0;
+  text-align: left; }
 
-p:nth-child(2){
-    margin-top: 2px;
-}
+p:nth-child(2) {
+  margin-top: 2px; }
 
 .jumbotron-c span {
-    font-size: 0px;
-    color: white; 
-}
+  font-size: 0px;
+  color: white; }
 
 .box-content {
-    width: 100%;
-    float: left;
-    padding: 0 0 0 0;
-}
+  width: 100%;
+  float: left;
+  padding: 0 0 0 0; }
+
 .box-content .col-md-6 {
-    padding: 0;
-}
+  padding: 0; }
 
 .tile-1 {
-    width: 100%;
-    height: 100%;
-    float: left;
-    margin: 36px 0 0 0;  
-}
-
-
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: 36px 0 0 0; }
 
 .tile-1 > .front-1 {
-    display: none;
-}
+  display: none; }
+
 .tile-1 > .back-1 {
-    width: 100%;
-    height:auto;
-    border-radius: 0px;
-    background: transparent;
-}
-img { 
-    max-width: 100%; 
-    height: auto;
-}
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+  background: transparent; }
+
+img {
+  max-width: 100%;
+  height: auto; }
 
 .block h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    margin: 20px 0 10px 0;
-    text-align: center;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    color: rgb(72, 103, 184);
-}
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin: 20px 0 10px 0;
+  text-align: center;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  color: #4867b8; }
+
 .block h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    margin-top: 0px;
-    font-variant: normal;
-    font-weight: 300;
-    text-align: center;
-    color: rgb(100, 100, 100);
-}
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin-top: 0px;
+  font-variant: normal;
+  font-weight: 300;
+  text-align: center;
+  color: #646464; }
 
 .block p {
-    text-align: center;
-    color: rgb(137, 137, 137);
-    padding: 4px 25px 0 25px;
-    font-size: 13px;    
-    font-family: 'Open Sans';
-}
+  text-align: center;
+  color: #898989;
+  padding: 4px 25px 0 25px;
+  font-size: 13px;
+  font-family: 'Open Sans'; }
 
 .block-1 h1 {
-    position: absolute;
-    color: white;
-    text-align: center;
-    font-variant: normal;
-    font-family: 'Open Sans';
-    margin: 90px 40px 0 40px;
-    font-size:26px;
-    font-weight: 700;
-}
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-variant: normal;
+  font-family: 'Open Sans';
+  margin: 90px 50px;
+  font-size: 26px;
+  font-weight: 700; }
 
 .tile-2 {
-    position: relative;
-    width: 100%;
-    height: 180px;
-    float: left;
-    margin: 0 0 0 0;
-    background-color: white;
-}
+  position: relative;
+  width: 100%;
+  height: 180px;
+  float: left;
+  margin: 0 0 0 0;
+  background-color: white; }
 
 .tile-2 > .front-2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-}
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px; }
 
 .tile-3 {
-    position: relative;
-    width: 100%;
-    height: 180px;
-    float: left;
-    margin: 0 0 0 0;
-    background-color: rgb(242,242,242);
-}
-
+  position: relative;
+  width: 100%;
+  height: 180px;
+  float: left;
+  margin: 0 0 0 0;
+  background-color: #f2f2f2; }
 
 .tile-3 > .front-3 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-}
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px; }
 
 .tile-4 {
-    width: 100%;
-    height: 100%;
-    float: left;
-    padding: 15px 0 30px 0px;
-}
+  width: 100%;
+  height: 100%;
+  float: left;
+  padding: 15px 0 30px 0px; }
 
 .tile-4 > .front-4 {
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-    background: transparent;
-}
-img { 
-    max-width: 100%; 
-    height: auto;
-}
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  background: transparent; }
+
+img {
+  max-width: 100%;
+  height: auto; }
 
 .tile-5 {
-    width: 100%;
-height: 260px;  /* hacky move to overlap with the canvas */
-float: left;
-margin: 0 0 0 0;
-background: rgb(10, 182, 180);
-}
+  width: 100%;
+  height: 260px;
+  /* hacky move to overlap with the canvas */
+  float: left;
+  margin: 0 0 0 0;
+  background: #0ab6b4; }
 
 .tile-5 > .front-5 {
-    position: absolute;
-    border-radius: 0px;
-}
+  position: absolute;
+  border-radius: 0px; }
 
 .front-5 > .block-1 h1 {
-    color: black;
-    margin: 105px 0 0 116px;
-    font-size:28px;
-}
+  color: black;
+  margin: 105px 0 0 116px;
+  font-size: 28px; }
 
 .tile-6 {
-    position: relative;
-    width: 100%;
-    height: 180px;
-    float: left;
-    margin: 0 0 0 0;
-    background-color: white;
-}
+  position: relative;
+  width: 100%;
+  height: 180px;
+  float: left;
+  margin: 0 0 0 0;
+  background-color: white; }
 
 .tile-6 > .front-6 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-}
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px; }
 
 .tile-7 {
-    position: relative;
-    width: 100%;
-    height: 180px;
-    float: left;
-    margin: 0 0 0 0;
-    background-color: rgb(242,242,242);
-}
+  position: relative;
+  width: 100%;
+  height: 180px;
+  float: left;
+  margin: 0 0 0 0;
+  background-color: #f2f2f2; }
 
 .tile-7 > .front-7 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-}
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px; }
 
 .tile-8 {
-    width: 100%;
-    height: 100%;
-    float: left;
-    margin: 0 0 0 0;
-}
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: 0 0 0 0; }
 
 .tile-8 > .front-8 {
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-    background: transparent;
-}
-img { 
-    max-width: 100%; 
-    height: auto;
-}
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  background: transparent; }
+
+img {
+  max-width: 100%;
+  height: auto; }
 
 .tile-9 {
-    position: relative;
-    width: 100%;
-    height: 210px;
-    float: left;
-    margin: 0 0 0 0;
-    background-image: url(../img/busMD.jpg);
-    background-image: cover;
-    background-repeat: no-repeat;
-
-}
+  position: relative;
+  width: 100%;
+  height: 210px;
+  float: left;
+  margin: 0 0 0 0;
+  background-image: url(../img/busMD.jpg);
+  background-image: cover;
+  background-repeat: no-repeat; }
 
 .tile-9 > .front-9 {
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-    background: transparent;
-}
-img { 
-    max-width: 100%; 
-    height: auto;
-}
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  background: transparent; }
+
+img {
+  max-width: 100%;
+  height: auto; }
 
 #quote {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    margin: 70px 0 10px 0;
-    font-size: 16px;  
-    font-weight: 700; 
-}
+  position: absolute;
+  width: 100%;
+  height: auto;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 70px 0 10px 0;
+  font-size: 16px;
+  font-weight: 700; }
 
 .tile-10 {
-    position: relative;
-    width: 100%;
-    height: 180px;
-    float: left;
-    margin: 0 0 0 0;
-    background-color: white;
-}
+  position: relative;
+  width: 100%;
+  height: 180px;
+  float: left;
+  margin: 0 0 0 0;
+  background-color: white; }
 
 .tile-10 > .front-10 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-}
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px; }
 
 .tile-11 {
-    width: 100%;
-    height: 80px;
-    float: left;
-    margin: 0 0 0 0;
-    background-color: rgb(242,242,242);
-}
+  width: 100%;
+  height: 80px;
+  float: left;
+  margin: 30px 0;
+  background-color: #f2f2f2; }
 
 .tile-11 > .front-11 {
-    position: absolute;
-    border-radius: 0px;
-}
+  position: absolute;
+  border-radius: 0px; }
 
 .social-footer {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    float: right;
-}
+  position: relative;
+  width: 50%;
+  height: 100%;
+  float: right; }
 
 .social-footer img {
-    margin: 25px 0 0 10px;
-}
-
+  margin: 25px 0 0 10px; }
 
 .footer-block p {
-    width: 100%;
-    color: rgb(72, 103, 184);
-    font-size: 12px;
-    margin: 35px 0 0 20px; 
-    font-family: 'Open Sans';
-}
+  width: 100%;
+  color: #4867b8;
+  font-size: 12px;
+  margin: 35px 0 0 20px;
+  font-family: 'Open Sans'; }
 
-
+/* Small Devices, Tablets */
 @media (min-width: 768px) {
+  /*@media only screen and (min-width : 768px) { */
+  .nav-custom {
+    margin: 80px 0 0 0; }
+  .nav-custom a.navbar-brand {
+    font-size: 28px; }
+  ul.nav-menu li a {
+    font-size: 18px; }
+  .jumbotron-c {
+    width: 100%;
+    height: 140px;
+    margin: 30px 0 25px 0; }
+  .jumbotron-c p {
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; }
+  li:nth-child(1) {
+    margin-top: 4.5px; }
+  li:nth-child(3) {
+    margin-top: .4px; }
+  li:nth-child(4) {
+    margin-top: 2px; }
+  p:nth-child(2) {
+    margin-top: 1px; }
+  .jumbotron-c span {
+    color: black;
+    font-size: 35px;
+    animation: blinker 1.2s linear infinite; }
+  @keyframes blinker {
+    50% {
+      opacity: 0.0; } }
+  .block h2 {
+    margin: 40px 0 10px 0;
+    font-size: 16px;
+    text-align: center; }
+  .block h1 {
+    margin: 10px 0 0 0px;
+    font-size: 24px; }
+  .block p {
+    margin: 10px 16px 0 16px;
+    text-align: center;
+    font-size: 14px; }
+  .block-1 h1 {
+    margin: 90px 0 0 36px;
+    font-size: 28px; }
+  .tile-1 {
+    width: 375px;
+    height: 265px;
+    float: left;
+    margin: 0 0 0 0; }
+  .tile-1 > .front-1 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg);
+    width: 375px;
+    height: 265px;
+    background: transparent;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
+  .tile-1 > .back-1 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(180deg);
+    transform: perspective(100px) rotateY(180deg);
+    width: 375px;
+    height: 265px;
+    background: gray;
+    opacity: .85;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
+  .tile-1:hover > .front-1 {
+    -webkit-transform: perspective(100px) rotateY(-180deg);
+    transform: perspective(100px) rotateY(-180deg); }
+  .tile-1:hover > .back-1 {
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg); }
+  .tile-2 {
+    width: 375px;
+    height: 265px;
+    background-color: #f2f2f2; }
+  .tile-2 > .front-2 {
+    position: absolute;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px; }
+  .tile-3 {
+    width: 375px;
+    height: 265px;
+    float: left; }
+  .tile-3 > .front-3 {
+    position: absolute;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px; }
+  .tile-4 {
+    width: 375px;
+    height: 265px;
+    padding: 0px 0 0px 0px; }
+  .tile-4 > .front-4 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg);
+    background: transparent;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
+  .tile-4 > .back-4 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(180deg);
+    transform: perspective(100px) rotateY(180deg);
+    background: gray;
+    opacity: .85;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
+  .tile-4:hover > .front-4 {
+    -webkit-transform: perspective(100px) rotateY(-180deg);
+    transform: perspective(100px) rotateY(-180deg); }
+  .tile-4:hover > .back-4 {
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg); }
+  .tile-5 {
+    width: 375px;
+    height: 265px;
+    padding: 0px 0 0px 0px;
+    background: #0ab6b4; }
+  .tile-5 > .front-5 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg);
+    background: transparent;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
+  .tile-5:hover > .front-5 {
+    -webkit-transform: perspective(100px) rotateY(-180deg);
+    transform: perspective(100px) rotateY(-180deg); }
+  .front-5 > .block-1 h1 {
+    margin: 120px 0 0 120px;
+    font-size: 28px; }
+  .tile-6 {
+    width: 375px;
+    height: 265px;
+    background-color: #f2f2f2; }
+  .tile-6 > .front-6 {
+    position: absolute;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px; }
+  .tile-7 {
+    width: 375px;
+    height: 265px;
+    background-color: #f2f2f2; }
+  .tile-7 > .front-7 {
+    position: absolute;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px; }
+  .tile-8 {
+    width: 375px;
+    height: 265px;
+    margin: 0px 0 0px 0px; }
+  .tile-8 > .front-8 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg);
+    background: transparent;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
+  .tile-8 > .back-8 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(180deg);
+    transform: perspective(100px) rotateY(180deg);
+    background: gray;
+    opacity: .85;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
+  .tile-8:hover > .front-8 {
+    -webkit-transform: perspective(100px) rotateY(-180deg);
+    transform: perspective(100px) rotateY(-180deg); }
+  .tile-8:hover > .back-8 {
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg); }
+  .tile-9 {
+    width: 375px;
+    height: 265px;
+    margin: 0px 0 0px 0px;
+    background-image: url(../img/busSM.jpg); }
+  .tile-9 > .front-9 {
+    position: absolute;
+    background: white;
+    opacity: .5;
+    width: 375px;
+    height: 265px;
+    border-radius: 0px; }
+  #quote {
+    width: 100%;
+    margin: 105px 0 0 0;
+    font-size: 18px; }
+  .tile-10 {
+    width: 375px;
+    height: 265px;
+    background-color: #f2f2f2; }
+  .tile-10 > .front-10 {
+    width: 375px;
+    height: 265px; }
+  .tile-11 {
+    width: 100%;
+    height: 70px;
+    background-color: white; }
+  .social-footer img {
+    width: 24px;
+    height: 24px;
+    margin: 20px 30px 0 100px; }
+  .footer-block p {
+    font-size: 17px;
+    margin: 46px 0 50px 80px; } }
 
-
-    .nav-custom {
-        margin: 80px 0 0 0;
-    }
-
-    .nav-custom a.navbar-brand {
-        font-size:28px;
-    } 
-
-    ul.nav-menu li a {
-        font-size: 18px;
-    }
-
-    .jumbotron-c {
-        width: 100%;
-        height: 140px;
-        margin:30px 0 25px 0;
-    }
-
-    .jumbotron-c p{
-        font-size: 30px;
-        text-align: center;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-
-    li:nth-child(1){
-        margin-top: 4.5px;
-    }
-
-    li:nth-child(3){
-        margin-top: .4px;
-    }
-
-    li:nth-child(4){
-        margin-top: 2px;
-    }
-
-    p:nth-child(2){
-        margin-top: 1px;
-    }
-
-    .jumbotron-c span {
-        color: black;
-        font-size: 35px;
-        animation: blinker 1.2s linear infinite;
-    }
-
-    @keyframes blinker {  
-        50% { opacity: 0.0; }
-    }
-
-    .block h2 {
-        margin: 40px 0 10px 0;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .block h1 {
-        margin: 10px 0 0 0px;
-        font-size: 24px;
-    }
-
-    .block p {
-        margin: 10px 16px 0 16px;
-        text-align: center;
-        font-size: 14px;
-    }
-
-    .block-1 h1 {
-        margin: 90px 0 0 36px;
-        font-size: 28px;
-    }
-
-    .tile-1 {
-        width: 375px;
-        height: 265px;
-        float: left;
-        margin: 0 0 0 0;         
-    }
-
-    .tile-1 > .front-1 {
-        position: absolute;
-        -webkit-transform: perspective(100px) rotateY(0deg);
-        transform: perspective(100px) rotateY(0deg);
-        width: 375px;
-        height: 265px;
-        background: transparent;
-        border-radius: 0px;
-        -webkit-backface-visibility: hidden;
-        transition: -webkit-transform .0s linear 0s;
-        transition: transform .0s linear 0s; 
-    }
-
-    .tile-1 > .back-1 {
-        position: absolute;
-        -webkit-transform: perspective(100px) rotateY(180deg);
-        transform: perspective(100px) rotateY(180deg);
-        width: 375px;
-        height: 265px;
-        background: gray;
-        opacity: .85;
-        border-radius: 0px;
-        -webkit-backface-visibility: hidden;
-        transition: -webkit-transform .0s linear 0s;
-        transition: transform .0s linear 0s; 
-    }
-
-    .tile-1:hover > .front-1 {
-        -webkit-transform: perspective(100px) rotateY(-180deg);
-        transform: perspective(100px) rotateY(-180deg); 
-    }
-
-    .tile-1:hover > .back-1 {
-        -webkit-transform: perspective(100px) rotateY(0deg);
-        transform: perspective(100px) rotateY(0deg);
-    }
-
-
-    .tile-2 {
-        width: 375px;
-        height: 265px;
-        background-color: rgb(242,242,242);
-    }
-
-    .tile-2 > .front-2 {
-        position: absolute;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-    }
-
-    .tile-3 {
-        width: 375px;
-        height: 265px;
-        float: left;
-    }
-
-    .tile-3 > .front-3 {
-        position: absolute;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-    }
-
-    .tile-4 {
-        width: 375px;
-        height: 265px;
-        padding: 0px 0 0px 0px;
-    }
-
-    .tile-4 > .front-4 {
-        position: absolute;
-        -webkit-transform: perspective(100px) rotateY(0deg);
-        transform: perspective(100px) rotateY(0deg);
-        background: transparent;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-        -webkit-backface-visibility: hidden;
-        transition: -webkit-transform .0s linear 0s;
-        transition: transform .0s linear 0s; 
-    }
-
-    .tile-4 > .back-4 {
-        position: absolute;
-        -webkit-transform: perspective(100px) rotateY(180deg);
-        transform: perspective(100px) rotateY(180deg);
-        background: gray;
-        opacity: .85;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-        -webkit-backface-visibility: hidden;
-        transition: -webkit-transform .0s linear 0s;
-        transition: transform .0s linear 0s; 
-    }
-
-    .tile-4:hover > .front-4 {
-        -webkit-transform: perspective(100px) rotateY(-180deg);
-        transform: perspective(100px) rotateY(-180deg); 
-    }
-
-    .tile-4:hover > .back-4 {
-        -webkit-transform: perspective(100px) rotateY(0deg);
-        transform: perspective(100px) rotateY(0deg);
-    }
-
-    .tile-5 {
-        width: 375px;
-        height: 265px;
-        padding: 0px 0 0px 0px;
-        background: rgb(10, 182, 180);
-    }
-
-    .tile-5 > .front-5 {
-        position: absolute;
-        -webkit-transform: perspective(100px) rotateY(0deg);
-        transform: perspective(100px) rotateY(0deg);
-        background: transparent;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-        -webkit-backface-visibility: hidden;
-        transition: -webkit-transform .0s linear 0s;
-        transition: transform .0s linear 0s; 
-    }
-
-    .tile-5:hover > .front-5 {
-        -webkit-transform: perspective(100px) rotateY(-180deg);
-        transform: perspective(100px) rotateY(-180deg); 
-    }
-
-    .front-5 > .block-1 h1 {
-        margin: 120px 0 0 120px;
-        font-size:28px;
-    }
-
-    .tile-6 {
-        width: 375px;
-        height: 265px;
-        background-color: rgb(242,242,242);
-    }
-
-    .tile-6 > .front-6 {
-        position: absolute;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-    }
-
-
-    .tile-7 {
-        width: 375px;
-        height: 265px;
-        background-color: rgb(242,242,242);
-
-    }
-
-    .tile-7 > .front-7 {
-        position: absolute;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-    }
-
-    .tile-8 {
-        width: 375px;
-        height: 265px;
-        margin: 0px 0 0px 0px;
-    }
-
-    .tile-8 > .front-8 {
-        position: absolute;
-        -webkit-transform: perspective(100px) rotateY(0deg);
-        transform: perspective(100px) rotateY(0deg);
-        background: transparent;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-        -webkit-backface-visibility: hidden;
-        transition: -webkit-transform .0s linear 0s;
-        transition: transform .0s linear 0s; 
-    }
-
-    .tile-8 > .back-8 {
-        position: absolute;
-        -webkit-transform: perspective(100px) rotateY(180deg);
-        transform: perspective(100px) rotateY(180deg);
-        background: gray;
-        opacity: .85;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-        -webkit-backface-visibility: hidden;
-        transition: -webkit-transform .0s linear 0s;
-        transition: transform .0s linear 0s; 
-    }
-
-    .tile-8:hover > .front-8 {
-        -webkit-transform: perspective(100px) rotateY(-180deg);
-        transform: perspective(100px) rotateY(-180deg); 
-    }
-
-    .tile-8:hover > .back-8 {
-        -webkit-transform: perspective(100px) rotateY(0deg);
-        transform: perspective(100px) rotateY(0deg);
-    }
-
-    .tile-9 {
-        width: 375px;
-        height: 265px;
-        margin: 0px 0 0px 0px;
-        background-image: url(../img/busSM.jpg);
-    }
-
-    .tile-9 > .front-9 {
-        position: absolute;
-        background: white;
-        opacity: .5;
-        width: 375px;
-        height: 265px;
-        border-radius: 0px;
-    }
-
-    #quote {
-        width: 100%;
-        margin: 105px 0 0 0;
-        font-size: 18px;   
-    }
-
-    .tile-10 {
-        width: 375px;
-        height: 265px;
-        background-color: rgb(242,242,242);
-    }
-
-    .tile-10 > .front-10 {
-        width: 375px;
-        height: 265px;
-    }
-
-    .tile-11 {
-        width: 100%;
-        height: 70px;
-        background-color: white;
-    }
-
-    .social-footer img{
-        width: 24px;
-        height: 24px;
-        margin: 20px 30px 0 100px;
-    }
-
-    .footer-block p {
-        font-size: 17px;
-        margin: 46px 0 50px 80px; 
-    }
-}
-
-/* Medium Devices, Medium Screens */
+/* Medium Devices, Desktops */
 @media (min-width: 992px) {
-
-    .nav-custom {
-        margin: 70px 0 0 0;
-    }
-
-    .nav-custom a.navbar-brand {
-        font-size:28px;
-    } 
-
-    ul.nav-menu li a {
-        font-size: 18px;
-    }
-
-    .jumbotron-c {
-        height: 150px;
-        margin:40px 0px 26px 0;
-    }
-
-    .jumbotron-c p{
-        font-size: 36px;
-    }
-
-    .jumbotron-c span {
-        font-size: 45px;
-    }
-
-    p:nth-child(2){
-        margin-top: -5px;
-    }
-
-    .block-1 h1 {
-        margin: 110px 0 0 25px;
-        font-size: 40px;
-    }
-
-    .block h2 {
-        margin: 32px 0 0 0;
-        font-size: 20px;
-    }
-    .block h1 {
-        margin: 15px 0 0px 0;
-        font-size: 38px;
-    }
-
-    .block p {
-        margin: 20px 0 0 0;
-        font-size: 18px;
-    }
-
-    .tile-1 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-1 > .front-1 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-1 > .back-1 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-2 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-2 > .front-2 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-2 > .back-2 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-3 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-3 > .front-3 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-3 > .back-3 {
-        width: 485px;
-        height: 330px; 
-    }
-
-    .tile-4 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-4 > .front-4 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-4 > .back-4 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-5 {
-        width: 485px;
-        height: 330px;
-        background: rgb(10, 182, 180);
-    }
-
-    .tile-5 > .front-5 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-6 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-6 > .front-6 {
-
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-6 > .back-6 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-7 {
-        width: 485px;
-        height: 330px;
-        float: left;
-        padding: 0px 0 0px 0px;
-    }
-
-    .tile-7 > .front-7 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-7 > .back-7 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-8 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-8 > .front-8 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-8 > .back-8 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-9 {
-        width: 485px;
-        height: 330px;
-        background-image: url(../img/busMD.jpg);
-    }
-
-
-    #quote {
-        width: 100%;
-        margin: 125px 0 0 0;
-        font-size: 25px;   
-    }
-
-
-    .tile-10 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-10 > .front-10 {
-        width: 485px;
-        height: 330px;
-    }
-
-    .tile-10 > .back-10 {
-        width: 485px;
-        height: 330px;
-    }
-
-
-    .tile-11 {
-        width: 100%;
-        height: 100px;
-    }
-    .social-footer {
-        margin-left: 100px;
-    }
-    .social-footer img{
-        width: 30px;
-        height: 30px;
-        margin: 25px 5px 0 130px;
-    }
-
-    .footer-block p {
-        font-size: 17px;
-        margin:55px 0 50px 120px; 
-    }
-
-}
+  /*@media only screen and (min-width:992px) { */
+  .nav-custom {
+    margin: 70px 0 0 0; }
+  .nav-custom a.navbar-brand {
+    font-size: 28px; }
+  ul.nav-menu li a {
+    font-size: 18px; }
+  .jumbotron-c {
+    height: 150px;
+    margin: 40px 0px 26px 0; }
+  .jumbotron-c p {
+    font-size: 36px; }
+  .jumbotron-c span {
+    font-size: 45px; }
+  p:nth-child(2) {
+    margin-top: -5px; }
+  .block-1 h1 {
+    margin: 110px 0 0 25px;
+    font-size: 40px; }
+  .block h2 {
+    margin: 32px 0 0 0;
+    font-size: 20px; }
+  .block h1 {
+    margin: 15px 0 0px 0;
+    font-size: 38px; }
+  .block p {
+    margin: 20px 0 0 0;
+    font-size: 18px; }
+  .tile-1 {
+    width: 485px;
+    height: 330px; }
+  .tile-1 > .front-1 {
+    width: 485px;
+    height: 330px; }
+  .tile-1 > .back-1 {
+    width: 485px;
+    height: 330px; }
+  .tile-2 {
+    width: 485px;
+    height: 330px; }
+  .tile-2 > .front-2 {
+    width: 485px;
+    height: 330px; }
+  .tile-2 > .back-2 {
+    width: 485px;
+    height: 330px; }
+  .tile-3 {
+    width: 485px;
+    height: 330px; }
+  .tile-3 > .front-3 {
+    width: 485px;
+    height: 330px; }
+  .tile-3 > .back-3 {
+    width: 485px;
+    height: 330px; }
+  .tile-4 {
+    width: 485px;
+    height: 330px; }
+  .tile-4 > .front-4 {
+    width: 485px;
+    height: 330px; }
+  .tile-4 > .back-4 {
+    width: 485px;
+    height: 330px; }
+  .tile-5 {
+    width: 485px;
+    height: 330px;
+    background: #0ab6b4; }
+  .tile-5 > .front-5 {
+    width: 485px;
+    height: 330px; }
+  .tile-6 {
+    width: 485px;
+    height: 330px; }
+  .tile-6 > .front-6 {
+    width: 485px;
+    height: 330px; }
+  .tile-6 > .back-6 {
+    width: 485px;
+    height: 330px; }
+  .tile-7 {
+    width: 485px;
+    height: 330px;
+    float: left;
+    padding: 0px 0 0px 0px; }
+  .tile-7 > .front-7 {
+    width: 485px;
+    height: 330px; }
+  .tile-7 > .back-7 {
+    width: 485px;
+    height: 330px; }
+  .tile-8 {
+    width: 485px;
+    height: 330px; }
+  .tile-8 > .front-8 {
+    width: 485px;
+    height: 330px; }
+  .tile-8 > .back-8 {
+    width: 485px;
+    height: 330px; }
+  .tile-9 {
+    width: 485px;
+    height: 330px;
+    background-image: url(../img/busMD.jpg); }
+  #quote {
+    width: 100%;
+    margin: 125px 0 0 0;
+    font-size: 25px; }
+  .tile-10 {
+    width: 485px;
+    height: 330px; }
+  .tile-10 > .front-10 {
+    width: 485px;
+    height: 330px; }
+  .tile-10 > .back-10 {
+    width: 485px;
+    height: 330px; }
+  .tile-11 {
+    width: 100%;
+    height: 100px; }
+  .social-footer {
+    margin-left: 100px; }
+  .social-footer img {
+    width: 30px;
+    height: 30px;
+    margin: 25px 5px 0 130px; }
+  .footer-block p {
+    font-size: 17px;
+    margin: 55px 0 50px 120px; } }
 
 /* Large Devices, Wide Screens */
 @media (min-width: 1200px) {
-
-    .nav-custom {
-        margin: 65px 0 0px 0;
-    }
-    .nav-custom a.navbar-brand {
-        font-size:26px;
-    } 
-
-
-    ul.nav-menu li a {
-        font-size: 18px;
-    }
-
-    .jumbotron-c {
-        height: 180px;
-        margin:50px 0 0 0;
-    }
-
-    .jumbotron-c p{
-        font-size: 46px;
-    }
-
-    .jumbotron-c span {
-        font-size: 45px;
-    }
-
-    p:nth-child(2){
-        margin-top: -10px;
-    }
-
-    .block-1 h1 {
-        margin: 150px 0 0 22.5px;
-    }
-
-    .block h2 {
-        margin: 35px 0 0 0;
-        font-size: 30px;
-    }
-    .block h1 {
-        margin: 18px 0 0 0;
-        font-size: 48px;
-    }
-
-    .block p {
-        margin: 30px 15px 0 15px;
-        font-size: 24px;
-    }
-
-    .tile-1 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-1 > .front-1 {
-        width: 585px;
-        height: 440px;
-    }
-
-
-    .tile-1 > .back-1 {
-        width: 585px;
-        height: 440px;
-    }
-
-
-    .tile-2 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-2 > .front-2 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-2 > .back-2 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-3 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-3 > .front-3 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-3 > .back-3 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-4 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-4 > .front-4 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-4 > .back-4 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-5 {
-        width: 585px;
-        height: 440px;
-        background: rgb(10, 182, 180);
-    }
-
-    .tile-5 > .front-5 {
-        background: transparent;
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-6 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-6 > .front-6 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-6 > .back-6 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-7 {
-        width: 585px;
-        height: 440px;
-        float: left;
-    }
-
-    .tile-7 > .front-7 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-7 > .back-7 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-8 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-8 > .front-8 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-8 > .back-8 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-9 {
-        width: 585px;
-        height: 440px;
-        background-image: url(../img/busLG.jpg);
-    }
-
-    #quote {
-        margin: 140px 0 0 0;
-        font-size: 30px;   
-    }
-
-    .tile-10 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-10 > .front-10 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-10 > .back-10 {
-        width: 585px;
-        height: 440px;
-    }
-
-    .tile-11 {
-        width: 100%;
-        height: 30px;
-    }
-
-
-    .social-footer img{
-        width: 34px;
-        height: 34px;
-        margin: 10px 0 0 100px;
-    }
-
-    .footer-block p {
-        font-size: 20px;
-        margin:10px 0 0 0 40px; 
-    }
+  /*@media only screen and (min-width:1200px) { */
+  .nav-custom {
+    margin: 65px 0 0px 0; }
+  .nav-custom a.navbar-brand {
+    font-size: 26px; }
+  ul.nav-menu li a {
+    font-size: 18px; }
+  .jumbotron-c {
+    height: 180px;
+    margin: 50px 0 0 0; }
+  .jumbotron-c p {
+    font-size: 46px; }
+  .jumbotron-c span {
+    font-size: 45px; }
+  p:nth-child(2) {
+    margin-top: -10px; }
+  .block-1 h1 {
+    margin: 150px 0 0 22.5px; }
+  .block h2 {
+    margin: 35px 0 0 0;
+    font-size: 30px; }
+  .block h1 {
+    margin: 18px 0 0 0;
+    font-size: 48px; }
+  .block p {
+    margin: 30px 15px 0 15px;
+    font-size: 24px; }
+  .tile-1 {
+    width: 585px;
+    height: 440px; }
+  .tile-1 > .front-1 {
+    width: 585px;
+    height: 440px; }
+  .tile-1 > .back-1 {
+    width: 585px;
+    height: 440px; }
+  .tile-2 {
+    width: 585px;
+    height: 440px; }
+  .tile-2 > .front-2 {
+    width: 585px;
+    height: 440px; }
+  .tile-2 > .back-2 {
+    width: 585px;
+    height: 440px; }
+  .tile-3 {
+    width: 585px;
+    height: 440px; }
+  .tile-3 > .front-3 {
+    width: 585px;
+    height: 440px; }
+  .tile-3 > .back-3 {
+    width: 585px;
+    height: 440px; }
+  .tile-4 {
+    width: 585px;
+    height: 440px; }
+  .tile-4 > .front-4 {
+    width: 585px;
+    height: 440px; }
+  .tile-4 > .back-4 {
+    width: 585px;
+    height: 440px; }
+  .tile-5 {
+    width: 585px;
+    height: 440px;
+    background: #0ab6b4; }
+  .tile-5 > .front-5 {
+    background: transparent;
+    width: 585px;
+    height: 440px; }
+  .tile-6 {
+    width: 585px;
+    height: 440px; }
+  .tile-6 > .front-6 {
+    width: 585px;
+    height: 440px; }
+  .tile-6 > .back-6 {
+    width: 585px;
+    height: 440px; }
+  .tile-7 {
+    width: 585px;
+    height: 440px;
+    float: left; }
+  .tile-7 > .front-7 {
+    width: 585px;
+    height: 440px; }
+  .tile-7 > .back-7 {
+    width: 585px;
+    height: 440px; }
+  .tile-8 {
+    width: 585px;
+    height: 440px; }
+  .tile-8 > .front-8 {
+    width: 585px;
+    height: 440px; }
+  .tile-8 > .back-8 {
+    width: 585px;
+    height: 440px; }
+  .tile-9 {
+    width: 585px;
+    height: 440px;
+    background-image: url(../img/busLG.jpg); }
+  #quote {
+    margin: 140px 0 0 0;
+    font-size: 30px; }
+  .tile-10 {
+    width: 585px;
+    height: 440px; }
+  .tile-10 > .front-10 {
+    width: 585px;
+    height: 440px; }
+  .tile-10 > .back-10 {
+    width: 585px;
+    height: 440px; }
+  .tile-11 {
+    width: 100%;
+    height: 30px; }
+  .social-footer img {
+    width: 34px;
+    height: 34px;
+    margin: 0px 0 0 100px; }
+  .footer-block p {
+    font-size: 20px;
+    margin: 10px 0 0 0 40px; } }
+.footer-block p {
+    margin: 0;
 }
