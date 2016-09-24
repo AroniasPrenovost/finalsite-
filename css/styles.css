@@ -296,9 +296,7 @@ img {
   margin: 35px 0 0 20px;
   font-family: 'Open Sans'; }
 
-/* Small Devices, Tablets */
 @media (min-width: 768px) {
-  /*@media only screen and (min-width : 768px) { */
   .nav-custom {
     margin: 80px 0 0 0; }
   .nav-custom a.navbar-brand {
@@ -536,9 +534,8 @@ img {
     font-size: 17px;
     margin: 46px 0 50px 80px; } }
 
-/* Medium Devices, Desktops */
+/* Medium Devices, Medium Screens */
 @media (min-width: 992px) {
-  /*@media only screen and (min-width:992px) { */
   .nav-custom {
     margin: 70px 0 0 0; }
   .nav-custom a.navbar-brand {
@@ -670,7 +667,6 @@ img {
 
 /* Large Devices, Wide Screens */
 @media (min-width: 1200px) {
-  /*@media only screen and (min-width:1200px) { */
   .nav-custom {
     margin: 65px 0 0px 0; }
   .nav-custom a.navbar-brand {
